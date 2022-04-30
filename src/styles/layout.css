@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "vulf mono bold italic";
+	src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
+	font-family: "vulf sans regular";
+	src: url("../../fonts/mono/Vulf_Sans-Regular_web.ttf") format("truetype");
+}
+
+.navbar {
+	font-family: "vulf mono bold italic";
+	display: flex;
+	align-items: center;
+	padding: 30px 10px;
+	justify-content: space-evenly;
+	height: 50px;
+	background: #ffffff;
+	font-size: 24px;
+}
+
+.navbar > a {
+	text-decoration: none;
+	color: #000000;
+}
+
+p {
+	font-family: "Vulf Mono";
+}

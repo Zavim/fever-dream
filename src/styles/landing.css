@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Vulf Mono";
+	src: url("/fonts/VulfMonoDemo-Italic.otf") format("truetype");
+}
+.enter-button {
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	margin: 0;
+	position: fixed;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.feverdream {
+	font-family: "Vulf Mono";
+	margin: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
