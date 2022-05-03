@@ -1,21 +1,23 @@
 @font-face {
 	font-family: "vulf mono bold italic";
-	src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
+	src: url("../../public/fonts/mono/Vulf_Mono-Bold_Italic_web.ttf")
+		format("truetype");
 }
 
 @font-face {
 	font-family: "vulf mono italic";
-	src: url("../../fonts/mono/Vulf_Mono-Italic_web.ttf") format("truetype");
+	src: url("../../public/fonts/mono/Vulf_Mono-Italic_web.ttf")
+		format("truetype");
 }
 
 @font-face {
 	font-family: "vulf mono bold";
-	src: url("../../fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
+	src: url("../../public/fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
 }
 
 @font-face {
 	font-family: "vulf sans regular";
-	src: url("../../fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
+	src: url("../../public/fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
 }
 
 * {
