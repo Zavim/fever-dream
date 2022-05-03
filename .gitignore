@@ -21,3 +21,4 @@ pnpm-debug.log*
 
 .vscode
 src/videos/FINALFEVER.mp4
+.vercel
