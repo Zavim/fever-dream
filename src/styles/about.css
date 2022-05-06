@@ -227,6 +227,12 @@ footer {
 	padding: 0 19px;
 }
 
+.footer-links > a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 25px;
+}
+
 .footer-contact > p {
 	font-family: "vulf mono black italic";
 	font-size: 35px;

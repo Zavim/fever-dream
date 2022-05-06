@@ -138,9 +138,12 @@ export default function About() {
 					<a href="#">contact us</a>
 				</nav>
 				<nav className="footer-links">
-					<p>about</p>
-					<p>residency</p>
-					<p>dreamjournal</p>
+					<a href="/about">about</a>
+					<br />
+					<a href="/residency">residency</a>
+					<br />
+					<a href="/dreamJournal">dreamjournal</a>
+					<br />
 				</nav>
 				<nav className="footer-socials">
 					<img src={placeholder} alt="placeholder" />
