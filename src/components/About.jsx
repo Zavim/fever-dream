@@ -6,7 +6,6 @@ export default function About() {
 	//make this a drop down with focus
 	return (
 		<>
-			{/* <main> */}
 			<nav className="mission-container">
 				<nav className="mission-container-text">
 					<h2>mission statement</h2>
@@ -133,7 +132,6 @@ export default function About() {
 					</nav>
 				</nav>
 			</nav>
-			{/* </main> */}
 			<footer>
 				<nav className="footer-contact">
 					<p>(feverdream)</p>

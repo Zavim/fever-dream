@@ -65,8 +65,8 @@ img {
 	background: linear-gradient(
 		180deg,
 		#ffffff 0%,
-		#ffffff 17.71%,
-		#ffffff 80.73%,
+		#ffffffcc 17.71%,
+		#ffffffcc 80.73%,
 		rgba(255, 255, 255, 0) 100%
 	);
 	background-blend-mode: soft-light;
@@ -131,8 +131,8 @@ img {
 	background: linear-gradient(
 		180deg,
 		rgba(255, 255, 255, 0) 0%,
-		#ffffff 6.77%,
-		#ffffff 93.23%,
+		#ffffffcc 6.77%,
+		#ffffffcc 93.23%,
 		rgba(255, 255, 255, 0) 100%
 	);
 	background-blend-mode: soft-light;
