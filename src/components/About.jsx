@@ -6,6 +6,7 @@ export default function About() {
 	//make this a drop down with focus
 	return (
 		<>
+			{/* <main> */}
 			<nav className="mission-container">
 				<nav className="mission-container-text">
 					<h2>mission statement</h2>
@@ -56,12 +57,29 @@ export default function About() {
 					</p>
 				</nav>
 			</nav>
+			<h2 className="board-title">board</h2>
 			<nav className="board-container">
-				<h2>board</h2>
 				<nav className="board-bio">
 					<nav className="board-bio-image-container">
 						<img src={placeholderVert} alt="placeholder" />
 						<h3>jesse grant</h3>
+						<h4>Founder, Head of the board</h4>
+					</nav>
+					<nav className="haiku-container">
+						<p className="haiku">
+							<span>the universe in</span>
+							<br />
+							<span>a spirited silhouette</span>
+							<br />
+							<span>with a beating heart.</span>
+						</p>
+						<p className="haiku-more">More</p>
+					</nav>
+				</nav>
+				<nav className="board-bio">
+					<nav className="board-bio-image-container">
+						<img src={placeholderVert} alt="placeholder" />
+						<h3>christine grant</h3>
 						<h4>Founder, Head of the board</h4>
 					</nav>
 					<nav className="haiku-container">
@@ -71,7 +89,65 @@ export default function About() {
 						<p className="haiku-more">More</p>
 					</nav>
 				</nav>
+				<nav className="board-bio">
+					<nav className="board-bio-image-container">
+						<img src={placeholderVert} alt="placeholder" />
+						<h3>erin guido</h3>
+						<h4>Founder</h4>
+					</nav>
+					<nav className="haiku-container">
+						<p className="haiku">
+							the universe in a spirited silhouette with a beating heart.
+						</p>
+						<p className="haiku-more">More</p>
+					</nav>
+				</nav>
+				<nav className="board-bio">
+					<nav className="board-bio-image-container">
+						<img src={placeholderVert} alt="placeholder" />
+						<h3>john paul costello</h3>
+						<h4>Founder</h4>
+					</nav>
+					<nav className="haiku-container">
+						<p className="haiku">
+							the universe in a spirited silhouette with a beating heart.
+						</p>
+						<p className="haiku-more">More</p>
+					</nav>
+				</nav>
+				<nav className="board-bio">
+					<nav className="board-bio-image-container">
+						<img src={placeholderVert} alt="placeholder" />
+						<h3>maxmillian peralta</h3>
+						<h4>Program director</h4>
+					</nav>
+					<nav className="haiku-container">
+						<p className="haiku">
+							<span>skating above ground</span>
+							<br />
+							<span>as if i’m underwater</span>
+							<br />
+							<span>the sun bleeds through waves</span>
+						</p>
+						<p className="haiku-more">More</p>
+					</nav>
+				</nav>
 			</nav>
+			{/* </main> */}
+			<footer>
+				<nav className="footer-contact">
+					<p>(feverdream)</p>
+					<a href="#">contact us</a>
+				</nav>
+				<nav className="footer-links">
+					<p>about</p>
+					<p>residency</p>
+					<p>dreamjournal</p>
+				</nav>
+				<nav className="footer-socials">
+					<img src={placeholder} alt="placeholder" />
+				</nav>
+			</footer>
 		</>
 	);
 }
