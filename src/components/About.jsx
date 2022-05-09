@@ -1,6 +1,10 @@
 import React from "react";
 import placeholder from "../images/image-placeholder.png";
 import placeholderVert from "../images/image-placeholder-vert.png";
+import facebook from "../images/fb.png";
+import instagram from "../images/insta.png";
+import linkedIn from "../images/li.png";
+import youtube from "../images/yt.png";
 
 export default function About() {
 	//make this a drop down with focus
@@ -146,7 +150,10 @@ export default function About() {
 					<br />
 				</nav>
 				<nav className="footer-socials">
-					<img src={placeholder} alt="placeholder" />
+					<img src={instagram} alt="instagram icon" />
+					<img src={youtube} alt="youtube icon" />
+					<img src={linkedIn} alt="linkedIn icon" />
+					<img src={facebook} alt="facebook icon" />
 				</nav>
 			</footer>
 		</>

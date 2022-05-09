@@ -249,7 +249,12 @@ footer {
 	font-size: 25px;
 }
 
-.footer-socials > img {
-	width: 7vw;
+.footer-socials {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1em;
 	padding-left: 52px;
+}
+.footer-socials > img {
+	width: 35px;
 }
