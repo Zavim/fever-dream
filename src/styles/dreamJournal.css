@@ -1,0 +1,105 @@
+@font-face {
+	font-family: "vulf mono bold italic";
+	src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "vulf sans bold";
+	src: url("../../fonts/sans/Vulf_Sans-Bold.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "vulf mono bold";
+	src: url("../../fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "vulf sans regular";
+	src: url("../../fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
+	font-display: swap;
+}
+
+* {
+	margin: 0px;
+}
+
+main {
+	background: #ffffff;
+}
+
+.journal-title {
+	padding-left: 10vw;
+}
+
+.journal-container {
+	min-height: max-content;
+	padding-left: 10vw;
+}
+
+.journal-entry {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-bottom: 47px;
+}
+
+.journal-entry > img {
+	width: 223px;
+	height: 238px;
+}
+
+.entry-text {
+	font-family: "vulf sans bold";
+	padding-left: 32px;
+}
+
+.entry-readmore {
+	padding-top: 50px;
+	color: #dfc6e5;
+}
+
+.news-container {
+	padding: 0 10vw 0;
+}
+
+.news-container > p {
+	font-family: "vulf sans regular";
+}
+
+.news-img-container {
+	justify-items: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 69px;
+}
+
+.news-img-container > img {
+	width: 350px;
+	height: 374px;
+}
+
+h2 {
+	font-size: 48px;
+	margin-top: 44px;
+	margin-bottom: 22px;
+	font-family: "vulf mono bold italic";
+}
+
+h3 {
+	font-size: 36px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 24px;
+}
+
+footer {
+	background: linear-gradient(0deg, #dfc6e5 55.8%, rgba(255, 255, 255, 0) 100%);
+}
