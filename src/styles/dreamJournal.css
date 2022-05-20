@@ -42,7 +42,6 @@ main {
 .journal-entry {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
 	padding-bottom: 47px;
 }
 
@@ -54,6 +53,7 @@ main {
 .entry-text {
 	font-family: "vulf sans bold";
 	padding-left: 32px;
+	font-size: 36px;
 }
 
 .entry-readmore {
@@ -67,6 +67,7 @@ main {
 
 .news-container > p {
 	font-family: "vulf sans regular";
+	height: 24vh;
 }
 
 .news-img-container {
@@ -81,15 +82,26 @@ main {
 	height: 374px;
 }
 
-h2 {
-	font-size: 48px;
-	margin-top: 44px;
-	margin-bottom: 22px;
-	font-family: "vulf mono bold italic";
+.archive-button {
+	position: relative;
+	right: 12vw;
+	text-align: right;
+	font-family: "vulf sans regular";
 }
 
-h3 {
-	font-size: 36px;
+.more-button {
+	position: relative;
+	right: 12vw;
+	padding-top: 63px;
+	text-align: right;
+	font-family: "vulf sans regular";
+	color: #dfc6e5;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 33px 0 33px 0;
+	font-family: "vulf mono bold italic";
 }
 
 h4 {

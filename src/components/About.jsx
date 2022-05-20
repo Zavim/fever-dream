@@ -2,8 +2,6 @@ import React from "react";
 import placeholder from "../images/image-placeholder.png";
 import placeholderVert from "../images/image-placeholder-vert.png";
 
-import Footer from "./Footer.jsx";
-
 export default function About() {
 	//make this a drop down with focus
 	return (
@@ -134,7 +132,6 @@ export default function About() {
 					</nav>
 				</nav>
 			</nav>
-			<Footer />
 		</>
 	);
 }

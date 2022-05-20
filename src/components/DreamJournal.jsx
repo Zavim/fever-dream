@@ -2,8 +2,6 @@ import React from "react";
 import placeholder from "../images/image-placeholder.png";
 import placeholderVert from "../images/image-placeholder-vert.png";
 
-import Footer from "./Footer.jsx";
-
 export default function DreamJournal() {
 	//make this a drop down with focus
 	return (
@@ -31,13 +29,17 @@ export default function DreamJournal() {
 					</nav>
 				</nav>
 			</nav>
+			<p className="archive-button">Archive</p>
 			<nav className="news-container">
 				<h2>alumni news network</h2>
 				<p>
 					The Fever Dream “Dream Journal” is a platform made to showcase most
-					recent work and careers of past residents. Fever Dream is devoted to
-					is continual support of those who have been selected for the residency
-					program.
+					recent work
+					<br />
+					and careers of past residents. Fever Dream is devoted to is continual
+					support of those
+					<br />
+					who have been selected for the residency program.
 				</p>
 				<nav className="news-img-container">
 					<img
@@ -72,7 +74,7 @@ export default function DreamJournal() {
 					/>
 				</nav>
 			</nav>
-			<Footer />
+			<p className="more-button">More</p>
 		</>
 	);
 }
