@@ -29,7 +29,7 @@ export default function Support() {
 							<label>
 								Last Name <span className="asterisk">*</span>
 								<br />
-								<input type="text" lastName="last-name" />
+								<input type="text" />
 							</label>
 						</div>
 						<div>
