@@ -1,6 +1,8 @@
 ---
 import "../styles/layout.css";
-import "../styles/landing.css";
+import "../styles/home.css";
+
+import Navbar from "../components/Navbar.jsx";
 ---
 
 <html lang="en">
@@ -10,19 +12,15 @@ import "../styles/landing.css";
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 	</head>
 	<body>
-		<main>
-			<!-- <App client:load /> -->
-			<section class="showcase">
-				<!-- <video
-					src="https://www.youtube.com/watch?v=w9pCFJ05_j4"
-					muted
-					loop
-					autoplay></video> -->
-			</section>
+		<Navbar />
+		<a href="/about">
+			<h1 class="enter-button">(feverdream)</h1>
+		</a>
 
-			<a href="/about">
-				<h1 class="enter-button">enter</h1>
-			</a>
-		</main>
+		<section class="showcase">
+			<video muted loop autoplay>
+				<source src="../videos/finalfever1080.mp4" type="video/mp4" />
+			</video>
+		</section>
 	</body>
 </html>

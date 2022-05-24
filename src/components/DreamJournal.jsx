@@ -3,7 +3,6 @@ import placeholder from "../images/image-placeholder.png";
 import placeholderVert from "../images/image-placeholder-vert.png";
 
 export default function DreamJournal() {
-	//make this a drop down with focus
 	return (
 		<>
 			<h2 className="journal-title">dream journal</h2>
