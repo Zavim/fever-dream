@@ -32,10 +32,10 @@ export default function DreamJournal() {
 			<nav className="news-container">
 				<h2>alumni news network</h2>
 				<p>
-					The Fever Dream “Dream Journal” is a platform made to showcase most
+					The feverdream “Dream Journal” is a platform made to showcase most
 					recent work
 					<br />
-					and careers of past residents. Fever Dream is devoted to is continual
+					and careers of past residents. feverdream is devoted to is continual
 					support of those
 					<br />
 					who have been selected for the residency program.

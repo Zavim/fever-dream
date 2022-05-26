@@ -10,7 +10,7 @@ export default function About() {
 				<nav className="mission-container-text">
 					<h2>mission statement</h2>
 					<p>
-						Fever Dream is dedicated to supporting the careers of artists, in
+						feverdream is dedicated to supporting the careers of artists, in
 						turn, cultivating and advancing fine art in Cleveland.
 					</p>
 				</nav>
@@ -21,16 +21,16 @@ export default function About() {
 				<nav className="vision-container-text">
 					<h2>vision</h2>
 					<p>
-						Fever Dream’s vision is to fill a niche within the artistic
-						community of Cleveland as an experimental space for artists to
-						thrive and grow, celebrating the following values: creative
-						development, collaboration, learning, and community. At the heart of
-						this vision lies the Fever Dream Residency program which offers
-						artists time, space, and funds to pursue the work they’re passionate
-						about. The program is particularly geared towards young, emerging 2D
-						artists within the scope of painting and drawing. Resident artists’
-						practices will thrive within the Fever Dream. And their admittance
-						into the program in addition to their contributions to Fever Dreams
+						feverdream’s vision is to fill a niche within the artistic community
+						of Cleveland as an experimental space for artists to thrive and
+						grow, celebrating the following values: creative development,
+						collaboration, learning, and community. At the heart of this vision
+						lies the feverdream Residency program which offers artists time,
+						space, and funds to pursue the work they’re passionate about. The
+						program is particularly geared towards young, emerging 2D artists
+						within the scope of painting and drawing. Resident artists’
+						practices will thrive within the feverdream. And their admittance
+						into the program in addition to their contributions to feverdream's
 						ongoing projects will key them into a network of artists for a
 						lifetime.
 					</p>

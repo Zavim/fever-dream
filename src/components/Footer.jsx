@@ -9,8 +9,12 @@ export default function Footer() {
 		<>
 			<footer>
 				<nav className="footer-contact">
-					<p>(feverdream)</p>
-					<a href="#">contact us</a>
+					<a href="/">
+						<p className="footer-feverdream">(feverdream)</p>
+					</a>
+					<a className="contact-us" href="#">
+						contact us
+					</a>
 				</nav>
 				<nav className="footer-links">
 					<a href="/about">about</a>
@@ -21,10 +25,34 @@ export default function Footer() {
 					<br />
 				</nav>
 				<nav className="footer-socials">
-					<img src={instagram} alt="instagram icon" />
-					<img src={youtube} alt="youtube icon" />
-					<img src={linkedIn} alt="linkedIn icon" />
-					<img src={facebook} alt="facebook icon" />
+					<a href="https://www.instagram.com/feverdream.gallery?igshid=YmMyMTA2M2Y=">
+						<img
+							className="footer-socials-icon"
+							src={instagram}
+							alt="instagram icon"
+						/>
+					</a>
+					<a href="https://www.youtube.com/channel/UCxAuN_qvuMhPgm4ymiHndUw">
+						<img
+							className="footer-socials-icon"
+							src={youtube}
+							alt="youtube icon"
+						/>
+					</a>
+					<a href="https://www.linkedin.com/company/feverdream/">
+						<img
+							className="footer-socials-icon"
+							src={linkedIn}
+							alt="linkedIn icon"
+						/>
+					</a>
+					<a href="https://www.facebook.com/feverdreamresidency">
+						<img
+							className="footer-socials-icon"
+							src={facebook}
+							alt="facebook icon"
+						/>
+					</a>
 				</nav>
 			</footer>
 		</>

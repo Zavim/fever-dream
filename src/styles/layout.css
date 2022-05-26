@@ -13,6 +13,10 @@
 	src: url("../../fonts/mono/Vulf_Mono-Black_Italic_web.ttf") format("truetype");
 }
 
+a {
+	text-decoration: none;
+}
+
 .navbar {
 	font-family: "vulf mono black italic";
 	position: sticky;
@@ -65,13 +69,14 @@ footer {
 	font-size: 25px;
 }
 
-.footer-contact > p {
+.footer-feverdream {
 	font-family: "vulf mono black italic";
 	font-size: 35px;
 	margin-bottom: 20px;
+	color: #ffffff;
 }
 
-.footer-contact > a {
+.contact-us {
 	text-decoration: none;
 	border: 3.64666px solid #ffffff;
 	color: #ffffff;
@@ -87,6 +92,6 @@ footer {
 	gap: 1em;
 	padding-left: 52px;
 }
-.footer-socials > img {
+.footer-socials-icon {
 	width: 35px;
 }

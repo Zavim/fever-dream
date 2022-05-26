@@ -1,6 +1,5 @@
 import React from "react";
 import placeholder from "../images/image-placeholder.png";
-import placeholderVert from "../images/image-placeholder-vert.png";
 
 export default function Support() {
 	return (
@@ -10,7 +9,7 @@ export default function Support() {
 					<h2>contact</h2>
 					<p>
 						Keep up to date with <br />
-						Fever Dream by filling out
+						feverdream by filling out
 						<br />
 						the simple contact form <br /> below to join our email list. <br />
 						<br />
