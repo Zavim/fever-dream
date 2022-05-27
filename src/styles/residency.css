@@ -1,0 +1,205 @@
+@font-face {
+	font-family: "vulf mono bold italic";
+	src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "vulf mono black italic";
+	src: url("../../fonts/mono/Vulf_Mono-Black_Italic_web.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "vulf mono italic";
+	src: url("../../fonts/mono/Vulf_Mono-Italic_web.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "vulf mono bold";
+	src: url("../../fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "vulf sans regular";
+	src: url("../../fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
+	font-display: swap;
+}
+
+* {
+	margin: 0px;
+}
+
+.navbar {
+	background: linear-gradient(
+		180deg,
+		#ffffff 0%,
+		#ffffffcc 17.71%,
+		#ffffffcc 80.73%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+main {
+	background-image: url("../../backgrounds/seamless_green.png");
+}
+
+h2 {
+	font-size: 48px;
+	margin-top: 44px;
+	margin-bottom: 22px;
+	font-family: "vulf mono bold italic";
+}
+
+h3 {
+	font-size: 36px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+p {
+	font-family: "vulf sans regular";
+	font-size: 24px;
+}
+
+li {
+	font-family: "vulf sans regular";
+	font-size: 20px;
+}
+
+img {
+	width: 38vw;
+}
+
+.goal-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: right;
+	background-blend-mode: soft-light;
+	min-height: max-content;
+	padding-top: 138px;
+	padding-bottom: 166px;
+}
+
+.goal-container > img {
+	position: relative;
+	/* right: 15px; */
+}
+
+.goal-container-text {
+	width: 25vw;
+}
+
+.about-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	min-height: max-content;
+	padding-left: 66px;
+	padding-right: 190px;
+	padding-bottom: 44px;
+}
+
+.about-container > img {
+	padding-top: 85px;
+}
+
+.about-container-text {
+	font-size: 24px;
+	width: 40vw;
+}
+
+.vision-container-text > h3 {
+	margin-bottom: 12px;
+	font-family: "vulf mono bold italic";
+}
+
+.vision-container-text > p {
+	font-family: "vulf sans regular";
+}
+
+.board-title {
+	padding-left: 15vw;
+}
+
+.board-container {
+	/* background-color: #ffffff; */
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0) 0%,
+		#ffffffcc 6.77%,
+		#ffffffcc 93.23%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background-blend-mode: soft-light;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	min-height: max-content;
+	padding: 0px 190px;
+}
+
+.board-container > h2 {
+	margin-bottom: 52px;
+}
+
+.board-bio {
+	width: max-content;
+	display: flex;
+	align-items: center;
+	/* align-items: flex-start; */
+	margin-left: 200px;
+}
+
+.board-bio-image-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* width: max-content; */
+	padding-right: 6vw;
+	margin-bottom: 33px;
+}
+
+.board-bio-image-container > img {
+	width: 20vw;
+	margin-bottom: 33px;
+}
+
+.board-bio-image-container > h3 {
+	font-family: "vulf mono bold";
+	margin-bottom: 20px;
+}
+
+.board-bio-image-container > h4 {
+	font-family: "vulf sans regular";
+}
+
+.board-bio-image-container > h3,
+h4 {
+	text-align: center;
+}
+
+.haiku-container {
+	width: 28vw;
+}
+
+.haiku {
+	font-family: "vulf mono italic";
+	text-align: center;
+	margin-bottom: 122px;
+}
+
+.haiku-more {
+	color: #d4dede;
+	font-family: "vulf sans regular";
+	text-align: center;
+}
+
+footer {
+	background: linear-gradient(0deg, #d2dec0 55.8%, rgba(255, 255, 255, 0) 100%);
+}
