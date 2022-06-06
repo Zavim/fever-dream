@@ -109,7 +109,12 @@ export default function About() {
 					</nav>
 					<nav className="haiku-container">
 						<p className="haiku">
-							the universe in a spirited silhouette with a beating heart.
+							<span>Dark eternity</span>
+							<br />
+							<span>Strong mind, unable to write</span>
+							<br />
+							<span>Into the paper</span>
+							<br />
 						</p>
 						<p className="haiku-more">More</p>
 					</nav>
