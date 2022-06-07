@@ -66,8 +66,8 @@ export default function Residency() {
           <nav className="residents-container-text-lower">
             <span>Click </span>
             <span className="residents-here-button"> here </span>
-            <span>to see our</span> <br />
-            <span>archive of past residents.</span>
+            <span>to become our</span> <br />
+            <span>first resident!</span>
           </nav>
         </nav>
       </nav>

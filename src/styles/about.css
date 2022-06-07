@@ -1,201 +1,201 @@
 @font-face {
-	font-family: "vulf mono bold italic";
-	src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
-	font-display: swap;
+  font-family: "vulf mono bold italic";
+  src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-	font-family: "vulf mono black italic";
-	src: url("../../fonts/mono/Vulf_Mono-Black_Italic_web.ttf") format("truetype");
+  font-family: "vulf mono black italic";
+  src: url("../../fonts/mono/Vulf_Mono-Black_Italic_web.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "vulf mono italic";
-	src: url("../../fonts/mono/Vulf_Mono-Italic_web.ttf") format("truetype");
-	font-display: swap;
+  font-family: "vulf mono italic";
+  src: url("../../fonts/mono/Vulf_Mono-Italic_web.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-	font-family: "vulf mono bold";
-	src: url("../../fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
-	font-display: swap;
+  font-family: "vulf mono bold";
+  src: url("../../fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-	font-family: "vulf sans regular";
-	src: url("../../fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
-	font-display: swap;
+  font-family: "vulf sans regular";
+  src: url("../../fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 * {
-	margin: 0px;
+  margin: 0px;
 }
 
 main {
-	background-image: url("../../backgrounds/seamless_blue.png");
+  background-image: url("../../backgrounds/seamless_blue.png");
 }
 
 h2 {
-	font-size: 48px;
-	margin-top: 44px;
-	margin-bottom: 22px;
-	font-family: "vulf mono bold italic";
-}
-
-h3 {
-	font-size: 36px;
+  font-size: 48px;
+  margin-top: 44px;
+  margin-bottom: 22px;
+  font-family: "vulf mono bold italic";
 }
 
 h4 {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 p {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 img {
-	width: 38vw;
+  width: 38vw;
 }
 
 .mission-container {
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	background: linear-gradient(180deg,
-			#ffffff 0%,
-			#ffffffcc 17.71%,
-			#ffffffcc 80.73%,
-			rgba(255, 255, 255, 0) 100%);
-	background-blend-mode: soft-light;
-	min-height: max-content;
-	padding-top: 86px;
-	padding-bottom: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #ffffffcc 17.71%,
+    #ffffffcc 80.73%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-blend-mode: soft-light;
+  min-height: max-content;
+  padding-top: 86px;
+  padding-bottom: 46px;
 }
 
-.mission-container>img {
-	position: relative;
-	right: 15px;
+.mission-container > img {
+  position: relative;
+  right: 15px;
 }
 
 .mission-container-text {
-	width: 25vw;
+  width: 25vw;
 }
 
-.mission-container-text>h2 {
-	padding-bottom: 28px;
+.mission-container-text > h2 {
+  padding-bottom: 28px;
 }
 
-.mission-container-text>p {
-	font-family: "vulf sans regular";
+.mission-container-text > p {
+  font-family: "vulf sans regular";
 }
 
 .vision-container {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-evenly;
-	min-height: max-content;
-	padding-left: 66px;
-	padding-right: 190px;
-	padding-bottom: 44px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  min-height: max-content;
+  padding-left: 66px;
+  padding-right: 190px;
+  padding-bottom: 44px;
 }
 
-.vision-container>img {
-	padding-top: 85px;
+.vision-container > img {
+  padding-top: 85px;
 }
 
 .vision-container-text {
-	text-align: right;
-	font-size: 24px;
-	width: 40vw;
+  text-align: right;
+  font-size: 24px;
+  width: 40vw;
 }
 
-.vision-container-text>h3 {
-	margin-bottom: 12px;
-	font-family: "vulf mono bold italic";
+.vision-container-text > h3 {
+  margin-bottom: 12px;
+  font-family: "vulf mono bold italic";
 }
 
-.vision-container-text>p {
-	font-family: "vulf sans regular";
+.vision-container-text > p {
+  font-family: "vulf sans regular";
 }
 
 .board-title {
-	padding-left: 15vw;
+  padding-left: 15vw;
 }
 
 .board-container {
-	/* background-color: #ffffff; */
-	background: linear-gradient(180deg,
-			rgba(255, 255, 255, 0) 0%,
-			#ffffffcc 6.77%,
-			#ffffffcc 93.23%,
-			rgba(255, 255, 255, 0) 100%);
-	background-blend-mode: soft-light;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-evenly;
-	min-height: max-content;
-	padding: 0px 190px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffffcc 6.77%,
+    #ffffffcc 93.23%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-blend-mode: soft-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: max-content;
+  padding: 0px 190px;
 }
 
-.board-container>h2 {
-	margin-bottom: 52px;
+.board-container > h2 {
+  margin-bottom: 52px;
 }
 
 .board-bio {
-	width: max-content;
-	display: flex;
-	align-items: center;
-	/* align-items: flex-start; */
-	margin-left: 200px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  /* align-items: flex-start; */
+  margin-left: 200px;
 }
 
 .board-bio-image-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	/* width: max-content; */
-	padding-right: 6vw;
-	margin-bottom: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: max-content; */
+  padding-right: 6vw;
+  margin-bottom: 45px;
 }
 
-.board-bio-image-container>img {
-	width: 20vw;
-	margin-bottom: 33px;
+.board-bio-image-container > img {
+  width: 20vw;
+  margin-bottom: 33px;
 }
 
-.board-bio-image-container>h3 {
-	font-family: "vulf mono bold";
-	margin-bottom: 20px;
+.board-bio-image-container > h3 {
+  font-family: "vulf mono bold";
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
-.board-bio-image-container>h4 {
-	font-family: "vulf sans regular";
+.board-bio-image-container > h4 {
+  font-family: "vulf sans regular";
 }
 
-.board-bio-image-container>h3,
+.board-bio-image-container > h3,
 h4 {
-	text-align: center;
+  text-align: center;
 }
 
 .haiku-container {
-	width: 28vw;
+  width: 28vw;
 }
 
 .haiku {
-	font-family: "vulf mono italic";
-	text-align: center;
-	line-break: normal;
-	margin-bottom: 122px;
+  font-family: "vulf mono italic";
+  text-align: center;
+  line-break: normal;
+  margin-bottom: 122px;
 }
 
 .haiku-more {
-	color: #d4dede;
-	font-family: "vulf sans regular";
-	text-align: center;
+  color: #d4dede;
+  font-family: "vulf sans regular";
+  text-align: center;
 }
 
 footer {
-	background: linear-gradient(0deg, #d4dede 55.8%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg, #d4dede 55.8%, rgba(255, 255, 255, 0) 100%);
 }
