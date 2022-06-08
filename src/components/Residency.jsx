@@ -105,9 +105,7 @@ export default function Residency() {
           </p>
         </nav>
       </nav>
-      <nav className="apply-button">
-        <h2>apply</h2>
-      </nav>
+      <button className="apply-button">apply</button>
     </>
   );
 }
