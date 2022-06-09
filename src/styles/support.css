@@ -1,98 +1,103 @@
 @font-face {
-	font-family: "vulf mono bold italic";
-	src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
-	font-display: swap;
+  font-family: "vulf mono bold italic";
+  src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-	font-family: "vulf sans bold";
-	src: url("../../fonts/sans/Vulf_Sans-Bold.ttf") format("truetype");
-	font-display: swap;
+  font-family: "vulf sans medium";
+  src: url("../../fonts/sans/Vulf_Sans-Medium.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-	font-family: "vulf mono bold";
-	src: url("../../fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
-	font-display: swap;
+  font-family: "vulf mono bold";
+  src: url("../../fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-	font-family: "vulf sans regular";
-	src: url("../../fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
-	font-display: swap;
+  font-family: "vulf sans regular";
+  src: url("../../fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 * {
-	margin: 0px;
+  margin: 0px;
 }
 
 main {
-	background-image: url("../../backgrounds/seamless_pink.png");
+  background-image: url("../../backgrounds/seamless_pink.png");
+}
+
+.navbar-support {
+  color: #e6bcb8;
 }
 
 .bg {
-	background: linear-gradient(
-		180deg,
-		#ffffff 0%,
-		#ffffffcc 17.71%,
-		#ffffffcc 80.73%,
-		rgba(255, 255, 255, 0) 100%
-	);
-	background-blend-mode: soft-light;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #ffffffcc 17.71%,
+    #ffffffcc 80.73%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-blend-mode: soft-light;
 }
 
 .navbar {
-	background: linear-gradient(
-		180deg,
-		#fff 0%,
-		#fffc 0.71%,
-		#fffc 80.73%,
-		rgba(255, 255, 255, 0) 100%
-	);
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    #fffc 0.71%,
+    #fffc 80.73%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 h2 {
-	font-family: "vulf mono bold italic";
-	font-size: 48px;
+  font-family: "vulf mono bold italic";
+  font-size: 48px;
 }
 
 .contact-container {
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	padding-top: 134px;
-	padding-left: 190px;
-	font-family: "vulf sans regular";
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 134px;
+  padding-left: 190px;
+  font-family: "vulf sans regular";
 }
 
 .contact-form {
-	padding-top: 15px;
+  padding-top: 15px;
 }
 
 .email {
-	color: #fbe0dd;
+  color: #e6bcb8;
+  font-family: "vulf sans medium";
 }
 
 .asterisk {
-	color: #fbe0dd;
+  color: #e6bcb8;
 }
 
 input {
-	border: 4px solid #fbe0dd;
+  border: 4px solid #e6bcb8;
 }
 
 .contact-img-container {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 1em;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
 }
 
 .contact-img-container > img {
-	gap: 1em;
-	width: 488px;
-	padding-left: 262px;
+  gap: 1em;
+  width: 488px;
+  padding-left: 262px;
 }
 
 footer {
-	background: linear-gradient(0deg, #fbe0dd 55.8%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg, #fbe0dd 55.8%, rgba(255, 255, 255, 0) 100%);
 }

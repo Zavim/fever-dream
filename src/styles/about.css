@@ -35,6 +35,10 @@ main {
   background-image: url("../../backgrounds/seamless_blue.png");
 }
 
+.navbar-about {
+  color: #b5bfbf;
+}
+
 h2 {
   font-size: 48px;
   margin-top: 44px;

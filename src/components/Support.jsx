@@ -14,7 +14,9 @@ export default function Support() {
             the simple contact form <br /> below to join our email list. <br />
             <br />
             For assistance please email <br />
-            <span className="email">hello@feverdream.com</span>
+            <span className="email">
+              <strong> hello@feverdream.com</strong>
+            </span>
           </p>
           <form action="" className="contact-form">
             <div>

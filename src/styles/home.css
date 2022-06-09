@@ -1,52 +1,69 @@
 @font-face {
-	font-family: "vulf mono italic";
-	src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
+  font-family: "vulf mono italic";
+  src: url("../../fonts/mono/Vulf_Mono-Bold_Italic_web.ttf") format("truetype");
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  /* 80% {
+    transform: translateY(5px);
+  } */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-	position: fixed;
-	width: 100vw;
-	padding: 0;
-	z-index: 2;
-	background: #ffffff00;
+  position: fixed;
+  width: 100vw;
+  padding: 0;
+  z-index: 2;
+  background: #ffffff00;
 }
 
 .navbar > a {
-	color: #ffffff;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  animation: moveInTop 1s ease-out 3s;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
 }
 
 .navbar-button {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 .enter-button {
-	font-family: "vulf mono italic";
-	color: #ffffff;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	font-size: 112px;
-	position: fixed;
-	z-index: 2;
-	top: 50vh;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  font-family: "vulf mono italic";
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 112px;
+  position: fixed;
+  z-index: 2;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .showcase {
-	position: absolute;
-	right: 0;
-	width: 100%;
-	height: 100vh;
-	overflow-y: hidden;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 .showcase > video {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }

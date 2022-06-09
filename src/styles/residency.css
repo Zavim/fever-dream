@@ -35,6 +35,10 @@ main {
   background-image: url("../../backgrounds/seamless_green.png");
 }
 
+.navbar-residency {
+  color: #aec48e;
+}
+
 h2 {
   font-size: 48px;
   margin-top: 44px;
