@@ -1,12 +1,11 @@
 import React from "react";
-import placeholder from "../images/image-placeholder.png";
-import mission from "../images/mission.jpg";
-import vision from "../images/vision.jpg";
-import jesse from "../images/jesse.jpg";
-import christine from "../images/christine.jpg";
-import erin from "../images/erin.jpg";
-import johnPaul from "../images/johnPaul.jpg";
-import maxmillian from "../images/maxmillian.jpg";
+import mission from "/images/mission.jpg";
+import vision from "/images/vision.jpg";
+import jesse from "/images/jesse.jpg";
+import christine from "/images/christine.jpg";
+import erin from "/images/erin.jpg";
+import johnPaul from "/images/johnPaul.jpg";
+import maxmillian from "/images/maxmillian.jpg";
 
 export default function About() {
   //make this a drop down with focus
