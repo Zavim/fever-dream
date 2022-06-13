@@ -1,5 +1,5 @@
 import React from "react";
-import placeholder from "../images/image-placeholder.png";
+import placeholder from "/images/image-placeholder.png";
 
 export default function Support() {
   return (
