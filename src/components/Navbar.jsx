@@ -1,6 +1,19 @@
 import React from "react";
 
 export default function Navbar() {
+  // let dropDowns = document.getElementsByClassName("dropDownButton");
+
+  // for (let i = 0; i < dropDowns.length; i++) {
+  //   dropDowns[i].addEventListener("click", function () {
+  //     this.classList.toggle("active");
+  //     let content = this.nextElementSibling;
+  //     if (content.style.display === "block") {
+  //       content.style.display = "none";
+  //     } else {
+  //       content.style.display = "block";
+  //     }
+  //   });
+  // }
   return (
     <>
       <nav className="navbar">

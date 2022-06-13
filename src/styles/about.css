@@ -198,6 +198,7 @@ h4 {
   color: #d4dede;
   font-family: "vulf sans regular";
   text-align: center;
+  display: none;
 }
 
 footer {
