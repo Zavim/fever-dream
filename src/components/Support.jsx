@@ -15,7 +15,7 @@ export default function Support() {
             <br />
             For assistance please email <br />
             <span className="email">
-              <strong> hello@feverdream.com</strong>
+              <strong> hello@feverdream.co</strong>
             </span>
           </p>
           <form action="" className="contact-form">

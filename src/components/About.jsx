@@ -67,7 +67,7 @@ export default function About() {
           <nav className="board-bio-image-container">
             <img src={jesse} alt="placeholder" />
             <h3>jesse grant</h3>
-            <h4>Founder, Head of the board</h4>
+            <h4>Founder, Head of the Board</h4>
           </nav>
           <nav className="haiku-container">
             <p className="haiku">
@@ -84,15 +84,15 @@ export default function About() {
           <nav className="board-bio-image-container">
             <img src={christine} alt="placeholder" />
             <h3>christine grant</h3>
-            <h4>Founder, Head of the board</h4>
+            <h4>Founder, Head of the Board</h4>
           </nav>
           <nav className="haiku-container">
             <p className="haiku">
-              <span>Unicorn shaped by</span>
+              <span>unicorn shaped by</span>
               <br />
-              <span> Too many worlds. Now waiting</span>
+              <span>too many worlds. Now waiting</span>
               <br />
-              <span> For invitation</span>
+              <span>for invitation</span>
             </p>
             <p className="haiku-more">More</p>
           </nav>
@@ -105,7 +105,7 @@ export default function About() {
           </nav>
           <nav className="haiku-container">
             <p className="haiku">
-              <span>Have you ever seen</span>
+              <span>have you ever seen</span>
               <br />
               <span>Magic shapes dancing at night</span>
               <br />
@@ -122,11 +122,11 @@ export default function About() {
           </nav>
           <nav className="haiku-container">
             <p className="haiku">
-              <span>Dark eternity</span>
+              <span>dark eternity</span>
               <br />
-              <span>Strong mind, unable to write</span>
+              <span>strong mind, unable to write</span>
               <br />
-              <span>Into the paper</span>
+              <span>into the paper</span>
               <br />
             </p>
             <p className="haiku-more">More</p>
@@ -136,7 +136,7 @@ export default function About() {
           <nav className="board-bio-image-container">
             <img src={maxmillian} alt="placeholder" />
             <h3>maxmillian peralta</h3>
-            <h4>Program director</h4>
+            <h4>Program Director</h4>
           </nav>
           <nav className="haiku-container">
             <p className="haiku">
