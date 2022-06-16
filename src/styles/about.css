@@ -78,6 +78,8 @@ img {
 .mission-container > img {
   position: relative;
   right: 15px;
+  width: 600px;
+  border: 1rem solid #d4dede;
 }
 
 .mission-container-text {
@@ -98,12 +100,14 @@ img {
   justify-content: space-evenly;
   min-height: max-content;
   padding-left: 66px;
-  padding-right: 190px;
+  padding-right: 90px;
   padding-bottom: 44px;
 }
 
 .vision-container > img {
-  padding-top: 85px;
+  margin-top: 85px;
+  width: 555px;
+  border: 1rem solid #b5bfbf;
 }
 
 .vision-container-text {
@@ -129,6 +133,7 @@ img {
 
 .board-title {
   padding-left: 15vw;
+  padding-bottom: 66px;
 }
 
 .board-container {
@@ -157,7 +162,7 @@ img {
   display: flex;
   align-items: center;
   /* align-items: flex-start; */
-  margin-left: 200px;
+  /* margin-left: 200px; */
 }
 
 .board-bio-image-container {
@@ -165,13 +170,14 @@ img {
   flex-direction: column;
   align-items: center;
   /* width: max-content; */
-  padding-right: 6vw;
+  /* padding-right: 6vw; */
   margin-bottom: 45px;
 }
 
 .board-bio-image-container > img {
   width: 20vw;
   margin-bottom: 33px;
+  border: 1rem solid #d4dede;
 }
 
 .board-bio-image-container > h3 {
@@ -194,10 +200,21 @@ h4 {
 }
 
 .haiku {
+  position: absolute;
+  transform: translateY(-150px);
+  right: 200px;
   font-family: "vulf mono italic";
-  text-align: center;
-  line-break: normal;
-  margin-bottom: 122px;
+  text-align: justify;
+  /* line-break: normal; */
+  /* margin-bottom: 122px; */
+}
+
+.jesse-haiku {
+  position: absolute;
+  transform: translateY(-150px);
+  right: 330px;
+  font-family: "vulf mono italic";
+  text-align: justify;
 }
 
 .haiku-more {

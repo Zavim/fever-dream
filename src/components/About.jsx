@@ -70,7 +70,7 @@ export default function About() {
             <h4>Founder, Head of the Board</h4>
           </nav>
           <nav className="haiku-container">
-            <p className="haiku">
+            <p className="jesse-haiku">
               <span>the universe in</span>
               <br />
               <span>a spirited silhouette</span>
@@ -84,7 +84,7 @@ export default function About() {
           <nav className="board-bio-image-container">
             <img src={christine} alt="placeholder" />
             <h3>christine grant</h3>
-            <h4>Founder, Head of the Board</h4>
+            <h4>Founder</h4>
           </nav>
           <nav className="haiku-container">
             <p className="haiku">
@@ -107,9 +107,9 @@ export default function About() {
             <p className="haiku">
               <span>have you ever seen</span>
               <br />
-              <span>Magic shapes dancing at night</span>
+              <span>magic shapes dancing at night</span>
               <br />
-              <span>Slowly fade away</span>
+              <span>slowly fade away</span>
             </p>
             <p className="haiku-more">More</p>
           </nav>

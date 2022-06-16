@@ -12,7 +12,7 @@ export default function Footer() {
           <a href="/">
             <p className="footer-feverdream">(feverdream)</p>
           </a>
-          <a className="contact-us" href="#">
+          <a className="contact-us" href="/support">
             contact us
           </a>
         </nav>
