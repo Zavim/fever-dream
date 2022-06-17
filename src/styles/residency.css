@@ -54,6 +54,7 @@ p,
 span {
   font-family: "vulf sans regular";
   font-size: 24px;
+  line-height: 30px;
 }
 
 li {
@@ -63,6 +64,7 @@ li {
 
 img {
   width: 38vw;
+  border: 1rem solid #d4dede;
 }
 
 .goal-container {
@@ -87,7 +89,7 @@ img {
 
 .goal-container > img {
   position: relative;
-  /* right: 15px; */
+  width: 506px;
 }
 
 .goal-container-text {
@@ -112,7 +114,8 @@ img {
 }
 
 .about-container > img {
-  padding-top: 85px;
+  margin-top: 85px;
+  width: 464px;
 }
 
 .about-container-text {
@@ -138,7 +141,8 @@ img {
 }
 
 .facilities-container > img {
-  padding-top: 85px;
+  margin-top: 85px;
+  width: 518px;
 }
 
 .facilities-container-text {
@@ -168,7 +172,8 @@ img {
 }
 
 .residents-container > img {
-  padding-top: 85px;
+  margin-top: 85px;
+  width: 630px;
 }
 
 .residents-container-text {
@@ -224,4 +229,8 @@ img {
 footer {
   height: 100vh;
   padding-top: 60vh;
+}
+
+.footer-socials > a > img {
+  border: none;
 }

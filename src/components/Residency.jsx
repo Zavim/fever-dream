@@ -1,11 +1,15 @@
 import React from "react";
 import placeholder from "/images/image-placeholder.png";
+import goal from "/images/goal.jpg";
+import residents from "/images/residents.jpg";
+import about from "/images/about.jpg";
+import facilities from "/images/facilities.jpg";
 
 export default function Residency() {
   return (
     <>
       <nav className="goal-container">
-        <img src={placeholder} alt="placeholder"></img>
+        <img src={goal} alt="placeholder"></img>
         <nav className="goal-container-text">
           <h2>goal</h2>
           <p>
@@ -38,10 +42,10 @@ export default function Residency() {
           <p>How to Apply</p>
           <p>FAQ</p>
         </nav>
-        <img src={placeholder} alt="placeholder" />
+        <img src={about} alt="placeholder" />
       </nav>
       <nav className="facilities-container">
-        <img src={placeholder} alt="placeholder" />
+        <img src={facilities} alt="placeholder" />
         <nav className="facilities-container-text">
           <h2>facilities</h2>
           <p>
@@ -54,7 +58,7 @@ export default function Residency() {
         </nav>
       </nav>
       <nav className="residents-container">
-        <img src={placeholder} alt="placeholder" />
+        <img src={residents} alt="placeholder" />
 
         <nav className="residents-container-text">
           <h2>residents</h2>
