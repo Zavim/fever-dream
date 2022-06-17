@@ -11,7 +11,7 @@ export default function About() {
   //make this a drop down with focus
   return (
     <>
-      <nav className="mission-container">
+      <nav className="mission-container" id="mission">
         <nav className="mission-container-text">
           <h2>mission statement</h2>
           <p>
@@ -21,7 +21,7 @@ export default function About() {
         </nav>
         <img src={mission} alt="placeholder"></img>
       </nav>
-      <nav className="vision-container">
+      <nav className="vision-container" id="vision">
         <img src={vision} alt="placeholder" />
         <nav className="vision-container-text">
           <h2>vision</h2>
@@ -62,7 +62,7 @@ export default function About() {
         </nav>
       </nav>
       <h2 className="board-title">board</h2>
-      <nav className="board-container">
+      <nav className="board-container" id="board">
         <nav className="board-bio">
           <nav className="board-bio-image-container">
             <img src={jesse} alt="placeholder" />
