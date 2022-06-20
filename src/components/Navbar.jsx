@@ -5,9 +5,9 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         {/* <div className="dropdown"> */}
-        <a href="/">
+        {/* <a href="/">
           <h3 className="navbar-feverdream">feverdream</h3>
-        </a>
+        </a> */}
         {/* <div className="dropdown-menu">content</div> */}
         {/* </div> */}
         <a href="/about">

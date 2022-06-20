@@ -1,5 +1,5 @@
 import React from "react";
-import placeholder from "/images/image-placeholder.png";
+import support from "/images/support.png";
 
 export default function Support() {
   return (
@@ -43,8 +43,8 @@ export default function Support() {
           </form>
         </nav>
         <nav className="contact-img-container">
-          <img src={placeholder} alt="placeholder"></img>
-          <img src={placeholder} alt="placeholder"></img>
+          <img src={support} alt="placeholder"></img>
+          <img src={support} alt="placeholder"></img>
         </nav>
       </nav>
     </>
