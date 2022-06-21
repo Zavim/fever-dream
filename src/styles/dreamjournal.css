@@ -34,6 +34,10 @@ main {
   color: #c1a1c9;
 }
 
+.content.open {
+  background: #c1a1c9;
+}
+
 .bg {
   background: linear-gradient(
     180deg,

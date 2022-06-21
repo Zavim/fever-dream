@@ -3,23 +3,26 @@ import "../styles/layout.css";
 import "../styles/support.css";
 
 import Support from "../components/Support.jsx";
-import Navbar from "../components/Navbar.jsx";
+import NavbarDrop from "../components/NavbarDrop.jsx";
 import Footer from "../components/Footer.jsx";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	</head>
-	<body>
-		<main>
-			<nav class="bg">
-				<Navbar />
-				<Support />
-				<Footer />
-			</nav>
-		</main>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+
+<body>
+	<main>
+		<nav class="bg">
+			<NavbarDrop client:load />
+			<Support />
+			<Footer />
+		</nav>
+	</main>
+</body>
+
 </html>

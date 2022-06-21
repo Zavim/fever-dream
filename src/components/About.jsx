@@ -7,6 +7,8 @@ import erin from "/images/erin.jpg";
 import johnPaul from "/images/johnPaul.jpg";
 import maxmillian from "/images/maxmillian.jpg";
 
+import Collapsible from "./Collapsible";
+
 export default function About() {
   //make this a drop down with focus
   return (
@@ -39,26 +41,42 @@ export default function About() {
             ongoing projects will key them into a network of artists for a
             lifetime.
           </p>
-          <h3>creative development</h3>
-          <p>
-            Providing the tools for career and research mobility to emerging
-            artists as well as celebrating their artistic practices.
-          </p>
-          <h3>collaboration</h3>
-          <p>
-            Passionately listening to, working with, and supporting others to
-            achieve a common goal.
-          </p>
-          <h3>learning</h3>
-          <p>
-            Remaining open-minded for the sake of positive growth to better
-            serve artists. Experimenting with new ideas and models.
-          </p>
-          <h3>community</h3>
-          <p>
-            Vitalizing the creative community of Cleveland by bringing members
-            closer together and supporting them.{" "}
-          </p>
+          <Collapsible
+            question={<h3>creative development</h3>}
+            answer={
+              <p>
+                Providing the tools for career and research mobility to emerging
+                artists as well as celebrating their artistic practices.
+              </p>
+            }
+          />
+          <Collapsible
+            question={<h3>collaboration</h3>}
+            answer={
+              <p>
+                Passionately listening to, working with, and supporting others
+                to achieve a common goal.
+              </p>
+            }
+          />
+          <Collapsible
+            question={<h3>learning</h3>}
+            answer={
+              <p>
+                Remaining open-minded for the sake of positive growth to better
+                serve artists. Experimenting with new ideas and models.
+              </p>
+            }
+          />
+          <Collapsible
+            question={<h3>community</h3>}
+            answer={
+              <p>
+                Vitalizing the creative community of Cleveland by bringing
+                members closer together and supporting them.{" "}
+              </p>
+            }
+          />
         </nav>
       </nav>
       <h2 className="board-title">board</h2>

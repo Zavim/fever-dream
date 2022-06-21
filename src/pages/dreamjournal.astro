@@ -1,11 +1,10 @@
 ---
 import "../styles/layout.css";
-import "../styles/residency.css";
+import "../styles/dreamjournal.css";
 
 import NavbarDrop from "../components/NavbarDrop.jsx";
-import Residency from "../components/Residency.jsx";
+import Dreamjournal from "../components/Dreamjournal.jsx";
 import Footer from "../components/Footer.jsx";
-
 ---
 
 <html lang="en">
@@ -14,13 +13,14 @@ import Footer from "../components/Footer.jsx";
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<title>dream journal</title>
 </head>
 
 <body>
 	<main>
-		<NavbarDrop client:load />
-		<Residency client:visible />
 		<nav class="bg">
+			<NavbarDrop client:load />
+			<Dreamjournal />
 			<Footer />
 		</nav>
 	</main>

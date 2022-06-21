@@ -1,10 +1,12 @@
 import React from "react";
 import placeholder from "/images/image-placeholder.png";
 
-export default function DreamJournal() {
+export default function Dreamjournal() {
   return (
     <>
-      <h2 className="journal-title">dream journal</h2>
+      <h2 className="journal-title" id="dreamjournal">
+        dream journal
+      </h2>
       <nav className="journal-container">
         <nav className="journal-entry">
           <img src={placeholder} alt="entry-placeholder" />
@@ -27,8 +29,10 @@ export default function DreamJournal() {
           </nav>
         </nav>
       </nav>
-      <p className="archive-button">Archive</p>
-      <nav className="news-container">
+      <p className="archive-button" id="archive">
+        Archive
+      </p>
+      <nav className="news-container" id="news">
         <h2>alumni news network</h2>
         <p>
           The feverdream “Dream Journal” is a platform made to showcase most

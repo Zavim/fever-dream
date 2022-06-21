@@ -39,6 +39,10 @@ img {
   color: #e6bcb8;
 }
 
+.content.open {
+  background: #e6bcb8;
+}
+
 .bg {
   background: linear-gradient(
     180deg,

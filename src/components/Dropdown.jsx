@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Dropdown(props) {
-  const { label, content } = props;
+  const { label, content, links } = props;
   const [open, setOpen] = useState(false);
 
   const toggle = (open) => {
@@ -12,8 +12,10 @@ export default function Dropdown(props) {
     <nav className="dropdown" onClick={() => toggle(open)}>
       <nav className="label">{label}</nav>
       <nav className={open ? "content open" : "content"}>
-        {content.map((item) => (
-          <a>{item}</a>
+        {content.map((item, i) => (
+          <a href={links[i]} key={i}>
+            {item}
+          </a>
         ))}
       </nav>
     </nav>

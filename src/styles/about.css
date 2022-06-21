@@ -39,6 +39,10 @@ main {
   color: #b5bfbf;
 }
 
+.content.open {
+  background: #b5bfbf;
+}
+
 h2 {
   font-size: 48px;
   margin-top: 44px;
@@ -130,6 +134,41 @@ img {
 
 .vision-container-text > p {
   font-family: "vulf sans regular";
+}
+
+.question {
+  cursor: pointer;
+}
+
+.question-text {
+  display: flex;
+  align-items: center;
+  font-family: "vulf mono bold italic";
+}
+
+.answer {
+  background: #b5bfbf;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.25s cubic-bezier(0, 1, 0, 1);
+}
+
+.answer > p {
+  padding: 1rem;
+  font-family: "vulf sans regular";
+}
+
+.answer.open {
+  background: #b5bfbf;
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.25s cubic-bezier(1, 0, 1, 0);
+}
+
+.dropdown-button {
+  width: 30px;
+  border: none;
+  padding-left: 1rem;
 }
 
 .board-title {

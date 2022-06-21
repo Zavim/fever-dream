@@ -13,16 +13,14 @@ export default function Collapsible(props) {
   return (
     <div className="question" onClick={() => toggle(open)}>
       <nav className="question-text">
-        <p>{question}</p>
+        {question}
         <img
           className="dropdown-button"
           src={open ? triButtonUp : triButtonDown}
           alt="triangular button"
         ></img>
       </nav>
-      <nav className={open ? "answer open" : "answer"}>
-        <p>{answer}</p>
-      </nav>
+      <nav className={open ? "answer open" : "answer"}>{answer}</nav>
     </div>
   );
 }

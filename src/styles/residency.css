@@ -39,6 +39,10 @@ main {
   color: #aec48e;
 }
 
+.content.open {
+  background: #aec48e;
+}
+
 h2 {
   font-size: 48px;
   margin-top: 44px;
@@ -167,7 +171,6 @@ img {
   min-height: max-content;
   padding-left: 66px;
   padding-right: 190px;
-  padding-bottom: 225px;
   padding-top: 143px;
 }
 
@@ -193,6 +196,7 @@ img {
 .faq-container {
   padding-left: 139px;
   padding-bottom: 179px;
+  padding-top: 225px;
 }
 
 .faq-container-text {
@@ -201,6 +205,7 @@ img {
 
 .question {
   cursor: pointer;
+  padding-bottom: 20px;
 }
 
 .question-text {

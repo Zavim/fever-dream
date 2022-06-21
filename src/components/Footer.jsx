@@ -21,7 +21,7 @@ export default function Footer() {
           <br />
           <a href="/residency">residency</a>
           <br />
-          <a href="/dreamJournal">dreamjournal</a>
+          <a href="/dreamjournal">dreamjournal</a>
           <br />
         </nav>
         <nav className="footer-socials">

@@ -9,7 +9,7 @@ import Collapsible from "./Collapsible";
 export default function Residency() {
   return (
     <>
-      <nav className="goal-container">
+      <nav className="goal-container" id="goal">
         <img src={goal} alt="placeholder"></img>
         <nav className="goal-container-text">
           <h2>goal</h2>
@@ -20,7 +20,7 @@ export default function Residency() {
           </p>
         </nav>
       </nav>
-      <nav className="about-container">
+      <nav className="about-container" id="about">
         <nav className="about-container-text">
           <h2>about</h2>
           <p>Residency Benefits</p>
@@ -45,12 +45,12 @@ export default function Residency() {
         </nav>
         <img src={about} alt="placeholder" />
       </nav>
-      <nav className="facilities-container">
+      <nav className="facilities-container" id="facilities">
         <img src={facilities} alt="placeholder" />
         <nav className="facilities-container-text">
           <h2>facilities</h2>
           <p>
-            Fever Dream offers a x sq. ft studio space dedicated to be used by
+            feverdream offers a x sq. ft studio space dedicated to be used by
             the resident. The studio space is equipped with the following:
             [pertinent studio equipment]. It also utilizes an exhibition space
             in the lobby of The Shoreway with x ft of wall space to exhibit the
@@ -58,12 +58,12 @@ export default function Residency() {
           </p>
         </nav>
       </nav>
-      <nav className="residents-container">
+      <nav className="residents-container" id="residents">
         <img src={residents} alt="placeholder" />
         <nav className="residents-container-text">
           <h2>residents</h2>
           <p>
-            Fever Dream is proud to <br />
+            feverdream is proud to <br />
             present [name] as its <br />
             current resident.
           </p>
@@ -75,80 +75,190 @@ export default function Residency() {
           </nav>
         </nav>
       </nav>
-      <nav className="faq-container">
+      <nav className="faq-container" id="faq">
         <nav className="faq-container-text">
           <h2>frequently asked questions</h2>
           <Collapsible
-            question="Why is the program called Fever Dream?"
-            answer="😏"
+            question={<p>Why is the program called feverdream?</p>}
+            answer={<p>😏</p>}
           />
           <Collapsible
-            question="Who is eligible to apply?"
-            answer="The scope of Fever Dream includes any young, local, emerging artists with high potential that showcase excellence in the mediums of painting and drawing. Local is defined as Ohio-based within a 2 hour radius. Artist collectives will not be eligible. Fever Dream is an open call for artists to apply where they will be adjudicated on the quality and promise of their proposal."
+            question={<p>Who is eligible to apply?</p>}
+            answer={
+              <p>
+                The scope of feverdream includes any young, local, emerging
+                artists with high potential that showcase excellence in the
+                mediums of painting and drawing. Local is defined as Ohio-based
+                within a 2 hour radius. Artist collectives will not be eligible.
+                feverdream is an open call for artists to apply where they will
+                be adjudicated on the quality and promise of their proposal.
+              </p>
+            }
           />
           <Collapsible
-            question="What is the vaccination policy in regards to incoming residents?"
-            answer="To ensure the safety of the local community and the safety of Fever Dream staff, the program requires the resident to be vaccinated."
+            question={
+              <p>
+                What is the vaccination policy in regards to incoming residents?
+              </p>
+            }
+            answer={
+              <p>
+                To ensure the safety of the local community and the safety of
+                feverdream staff, the program requires the resident to be
+                vaccinated.
+              </p>
+            }
           />
           <Collapsible
-            question="I'm still in school. Can I apply?"
-            answer="Yes, but Fever Dream requires that the artist applying be graduated from undergrad by the start of their residency term."
+            question={<p>I'm still in school. Can I apply?</p>}
+            answer={
+              <p>
+                Yes, but feverdream requires that the artist applying be
+                graduated from undergrad by the start of their residency term.
+              </p>
+            }
           />
           <Collapsible
-            question="How do I apply?"
-            answer="The Fever Dream application can be found [here]."
+            question={<p>How do I apply?</p>}
+            answer={<p>The feverdream application can be found [here].</p>}
           />
           <Collapsible
-            question="How often can I apply?"
-            answer="There is no limit to how often one can apply but if you get selected you are no longer allowed to apply."
+            question={<p>How often can I apply?</p>}
+            answer={
+              <p>
+                There is no limit to how often one can apply but if you get
+                selected you are no longer allowed to apply.
+              </p>
+            }
           />
           <Collapsible
-            question="When are the deadlines and what are the residency seasons?"
-            answer="Applications will be open for 2 months. The Phase One 2 month sessions are on a dynamic calendar where the break between each session can be at least a month or more. Be sure to join our email list to be notified when applications for the next session go live."
+            question={
+              <p>When are the deadlines and what are the residency seasons?</p>
+            }
+            answer={
+              <p>
+                Applications will be open for 2 months. The Phase One 2 month
+                sessions are on a dynamic calendar where the break between each
+                session can be at least a month or more. Be sure to join our
+                email list to be notified when applications for the next session
+                go live.
+              </p>
+            }
           />
           <Collapsible
-            question="How do I give myself the best chance to be selected?"
-            answer="The best advice to follow is that all applicants should make sure their applications are complete, their proposal is clear, and that the submitted work is strong and documented in a professional manner."
+            question={
+              <p>How do I give myself the best chance to be selected?</p>
+            }
+            answer={
+              <p>
+                The best advice to follow is that all applicants should make
+                sure their applications are complete, their proposal is clear,
+                and that the submitted work is strong and documented in a
+                professional manner.
+              </p>
+            }
           />
           <Collapsible
-            question="What is the cost of the residency?"
-            answer="There is no cost associated with your participation as a resident. There is a nonrefundable application fee of $10 that is waivable if you are in need of financial assistance."
+            question={<p>What is the cost of the residency?</p>}
+            answer={
+              <p>
+                There is no cost associated with your participation as a
+                resident. There is a nonrefundable application fee of $10 that
+                is waivable if you are in need of financial assistance.
+              </p>
+            }
           />
           <Collapsible
-            question="How long is the residency?"
-            answer="The residency is 2 months long."
+            question={<p>How long is the residency?</p>}
+            answer={<p>The residency is 2 months long.</p>}
           />
           <Collapsible
-            question="How much is the stipend provided for the artist resident?"
-            answer="The stipend provided by Fever Dream is $3000."
+            question={
+              <p>How much is the stipend provided for the artist resident?</p>
+            }
+            answer={<p>The stipend provided by feverdream is $3000.</p>}
           />
           <Collapsible
-            question="Are supplies provided?"
-            answer="Some supplies are provided in the studio space. We ask that the resident brings as much material as they can. If more supplies are needed Fever Dream will reimburse residents' costs up to $800."
+            question={<p>"Are supplies provided?"</p>}
+            answer={
+              <p>
+                Some supplies are provided in the studio space. We ask that the
+                resident brings as much material as they can. If more supplies
+                are needed feverdream will reimburse residents' costs up to
+                $800.
+              </p>
+            }
           />
           <Collapsible
-            question="Can I have guests in the studio?"
-            answer="The only guests allowed into the studio are guests who can provide formal artist's studio visits."
+            question={<p>Can I have guests in the studio?</p>}
+            answer={
+              <p>
+                The only guests allowed into the studio are guests who can
+                provide formal artist's studio visits.
+              </p>
+            }
           />
           <Collapsible
-            question="Does Fever Dream provide meals for the artist resident?"
-            answer="No, Fever Dream does not provide meals. There are plenty of dining options in the vicinity. A map of some of those establishments can be found [here.]"
+            question={
+              <p>Does feverdream provide meals for the artist resident?"</p>
+            }
+            answer={
+              <p>
+                No, feverdream does not provide meals. There are plenty of
+                dining options in the vicinity. A map of some of those
+                establishments can be found [here.]
+              </p>
+            }
           />
           <Collapsible
-            question="How long after the deadline will my residency begin?"
-            answer="There is roughly 1 month between when you are notified as being the final selected resident and when your residency starts. But because of our dynamic Phase One calendar there may be more time. You will be notified when your session will start if you are the selected resident."
+            question={
+              <p>How long after the deadline will my residency begin?</p>
+            }
+            answer={
+              <p>
+                There is roughly 1 month between when you are notified as being
+                the final selected resident and when your residency starts. But
+                because of our dynamic Phase One calendar there may be more
+                time. You will be notified when your session will start if you
+                are the selected resident.
+              </p>
+            }
           />
           <Collapsible
-            question="Who reviews my application?"
-            answer="The applications are reviewed by the board. The board is made up of Jesse Grant, Christine Grant, Maxmillian Peralta, Erin Guido, and John Paul Costello."
+            question={<p>Who reviews my application?"</p>}
+            answer={
+              <p>
+                The applications are reviewed by the board. The board is made up
+                of Jesse Grant, Christine Grant, Maxmillian Peralta, Erin Guido,
+                and John Paul Costello.
+              </p>
+            }
           />
           <Collapsible
-            question="I applied and was not offered the residency. How do I make my application stronger?"
-            answer="We are not able to provide specific individual feedback to applicants. To reiterate what was previously mentioned, make sure your application is complete , your proposal is clear, and the submitted work is strong and documented in a professional manner."
+            question={
+              <p>
+                I applied and was not offered the residency. How do I make my
+                application stronger?
+              </p>
+            }
+            answer={
+              <p>
+                We are not able to provide specific individual feedback to
+                applicants. To reiterate what was previously mentioned, make
+                sure your application is complete , your proposal is clear, and
+                the submitted work is strong and documented in a professional
+                manner.
+              </p>
+            }
           />
           <Collapsible
-            question="I applied and was not offered the residency. Can I reapply next time applications open?"
-            answer="Yes, you can apply for the next season."
+            question={
+              <p>
+                I applied and was not offered the residency. Can I reapply next
+                time applications open?
+              </p>
+            }
+            answer={<p>Yes, you can apply for the next season.</p>}
           />
         </nav>
       </nav>

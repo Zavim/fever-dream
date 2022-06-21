@@ -2,7 +2,7 @@
 import "../styles/layout.css";
 import "../styles/about.css";
 
-import Navbar from "../components/Navbar.jsx";
+import NavbarDrop from "../components/NavbarDrop.jsx";
 import About from "../components/About.jsx";
 import Footer from "../components/Footer.jsx";
 ---
@@ -17,8 +17,8 @@ import Footer from "../components/Footer.jsx";
 
 <body>
 	<main>
-		<Navbar />
-		<About />
+		<NavbarDrop client:load />
+		<About client:visible />
 		<Footer />
 	</main>
 </body>

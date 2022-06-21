@@ -44,7 +44,6 @@ export default function Support() {
         </nav>
         <nav className="contact-img-container">
           <img src={support} alt="placeholder"></img>
-          <img src={support} alt="placeholder"></img>
         </nav>
       </nav>
     </>
