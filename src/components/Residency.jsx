@@ -179,7 +179,7 @@ export default function Residency() {
             answer={<p>The stipend provided by feverdream is $3000.</p>}
           />
           <Collapsible
-            question={<p>"Are supplies provided?"</p>}
+            question={<p>Are supplies provided?</p>}
             answer={
               <p>
                 Some supplies are provided in the studio space. We ask that the
@@ -200,7 +200,7 @@ export default function Residency() {
           />
           <Collapsible
             question={
-              <p>Does feverdream provide meals for the artist resident?"</p>
+              <p>Does feverdream provide meals for the artist resident?</p>
             }
             answer={
               <p>
@@ -225,7 +225,7 @@ export default function Residency() {
             }
           />
           <Collapsible
-            question={<p>Who reviews my application?"</p>}
+            question={<p>Who reviews my application?</p>}
             answer={
               <p>
                 The applications are reviewed by the board. The board is made up
