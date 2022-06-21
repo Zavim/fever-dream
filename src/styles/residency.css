@@ -240,7 +240,7 @@ img {
   font-size: 48px;
   font-family: "vulf mono bold italic";
   width: 100vw;
-  transform: translate(0px, 120%);
+  transform: translateY(300%);
   background-color: transparent;
   border: none;
 }
@@ -248,16 +248,16 @@ img {
 .bg {
   background: linear-gradient(
     rgba(255, 255, 255, 0) 0%,
-    #ffffffcc 15%,
+    #fffffc 22%,
     #aec48e 100%
   );
   background-blend-mode: soft-light;
-  padding-top: 175px;
+  height: 1000px;
 }
 
 footer {
   height: 100vh;
-  padding-top: 60vh;
+  padding-top: 90vh;
 }
 
 .footer-socials > a > img {

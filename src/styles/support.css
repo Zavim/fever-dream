@@ -117,3 +117,7 @@ input {
 footer {
   background: linear-gradient(0deg, #fbe0dd 55.8%, rgba(255, 255, 255, 0) 100%);
 }
+
+.footer-socials > a > img {
+  border: none;
+}

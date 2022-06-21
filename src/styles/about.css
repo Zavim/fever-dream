@@ -134,7 +134,8 @@ img {
 
 .board-title {
   padding-left: 15vw;
-  padding-bottom: 66px;
+  /* padding-bottom: 66px; */
+  transform: translateY(300px);
 }
 
 .board-container {
@@ -151,7 +152,7 @@ img {
   align-items: center;
   justify-content: space-evenly;
   min-height: max-content;
-  padding: 0px 190px;
+  padding: 360px 190px 0;
 }
 
 .board-container > h2 {

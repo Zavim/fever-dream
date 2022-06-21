@@ -17,7 +17,7 @@ export default function Collapsible(props) {
         <img
           className="dropdown-button"
           src={open ? triButtonUp : triButtonDown}
-          alt="triangle pointing down"
+          alt="triangular button"
         ></img>
       </nav>
       <nav className={open ? "answer open" : "answer"}>

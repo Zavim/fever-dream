@@ -17,11 +17,18 @@ html {
   src: url("../../fonts/mono/Vulf_Mono-Black_Italic_web.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "vulf mono italic";
+  src: url("../../fonts/mono/Vulf_Mono-Italic_web.ttf") format("truetype");
+}
+
 a {
   text-decoration: none;
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
   font-family: "vulf mono black italic";
   display: flex;
   align-items: center;
@@ -38,17 +45,49 @@ a {
 }
 
 .dropdown {
+  cursor: pointer;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  position: absolute;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-out;
+}
+
+.content.open {
+  position: absolute;
+  background: #aec48e;
+  height: auto;
+  width: 255px;
+  max-height: 9999px;
+  transform: translateY(5px);
+  padding: 1rem;
+  transition: transform 0.2s ease-out;
+}
+
+.content.open > a {
+  font-family: "vulf mono bold italic";
+}
+/* .dropdown {
   position: relative;
-}
+} */
 
-.dropdown > a {
+/* .dropdown > a {
   color: #000000;
-}
+} */
 
-.dropdown-menu {
+/* .dropdown-menu {
   position: absolute;
   left: 0px;
-  /* left: calc(0 - 20vw); */
+  left: calc(0 - 20vw);
   top: calc(100% + 0.25rem);
   background-color: #ffffff;
   border-radius: 0.25rem;
@@ -57,12 +96,12 @@ a {
   pointer-events: none;
   transform: translateY(-10px);
   transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-  /* width: 20vw;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 2; */
-}
+  z-index: 2;
+} */
 
 /* .dropdown-menu > a {
   color: #000000;
@@ -72,14 +111,14 @@ a {
   text-align: center;
 } */
 
-.dropdown > a:focus + .dropdown-menu {
+/* .dropdown > a:focus + .dropdown-menu {
   opacity: 1;
   transform: translateY(0px);
-  /* }
-
-.dropdown > .dropdown-menu:hover { */
-  pointer-events: auto;
 }
+
+.dropdown > .dropdown-menu:hover {
+  pointer-events: auto;
+} */
 
 footer {
   font-family: "vulf mono bold italic";

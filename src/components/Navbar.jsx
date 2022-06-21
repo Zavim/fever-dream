@@ -1,18 +1,18 @@
 import React from "react";
+import Dropdown from "./Dropdown";
 
 export default function Navbar() {
   return (
     <>
       <nav className="navbar">
-        {/* <div className="dropdown"> */}
-        {/* <a href="/">
-          <h3 className="navbar-feverdream">feverdream</h3>
-        </a> */}
-        {/* <div className="dropdown-menu">content</div> */}
-        {/* </div> */}
-        <a href="/about">
+        <Dropdown
+          label={<h3 className="navbar-about">about</h3>}
+          content={["mission statement", "vision", "board"]}
+        />
+        {/* <Collapsible question="home" answer="lemons" /> */}
+        {/* <a href="/about">
           <h3 className="navbar-about">about</h3>
-        </a>
+        </a> */}
         <a href="/residency">
           <h3 className="navbar-residency">residency</h3>
         </a>
