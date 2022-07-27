@@ -23,23 +23,89 @@ export default function Residency() {
       <nav className="about-container" id="about">
         <nav className="about-container-text">
           <h2>about</h2>
-          <p>Residency Benefits</p>
+          <Collapsible
+            question={<p>Residency Benefits</p>}
+            answer={
+              <ul>
+                <li>
+                  2 Months dedicated to your art practice, creating a body of
+                  work you will keep.
+                </li>
+                <li>A platform to showcase your work</li>
+                <li>A $3000 stipend </li>
+                <li>An $800 supply stipend</li>
+                <li>
+                  Admission into a network of artists and creatives in Cleveland{" "}
+                </li>
+              </ul>
+            }
+          />
+          <Collapsible
+            question={<p>Residency Responsibilities</p>}
+            answer={
+              <ul>
+                <li>Create a self-directed body of work for The Shoreway</li>
+                <li>Cooperate with Fever Dream marketing efforts </li>
+                <li>Donate a one-off tiger related artwork </li>
+              </ul>
+            }
+          />
+          <Collapsible
+            question={<p>Eligibility</p>}
+            answer={
+              <ul>
+                <li>You must be 21 years old or older </li>
+                <li>
+                  We strongly encourage applicants have an undergraduate BFA
+                  degree, although not required{" "}
+                </li>
+                <li>
+                  You must be an emerging artist (defined as an aspiring
+                  professional artist early into their career).{" "}
+                </li>
+                <li>No artist collective groups </li>
+                <li>You must have the ability to commute to the studio </li>
+              </ul>
+            }
+          />
+          <Collapsible
+            question={<p>Adjudication</p>}
+            answer={
+              <ul>
+                <li>
+                  The final candidate for the residency program is decided by
+                  the board. If you are selected for the final round of the
+                  adjudication process you will be contacted via text/email for
+                  a final interview which will aide the final decision.{" "}
+                </li>
+              </ul>
+            }
+          />
+          <Collapsible
+            question={<p>Apply</p>}
+            answer={
+              <ul>
+                <li>
+                  Submit an application to become the next Fever Dream resident
+                  [here]
+                </li>
+                <li>
+                  As an applicant you should be aware we require the following
+                  information within the application:{" "}
+                  <ul>
+                    <li>Personal Details</li>
+                    <li>Contact Info</li>
+                    <li>Educational Background</li>
+                    <li>Resume/CV</li>
+                    <li>Slideshow of 8 - 12 Works</li>
+                    <li>Statement</li>
+                    <li>Proposal</li>
+                  </ul>
+                </li>
+              </ul>
+            }
+          />
 
-          <ul>
-            <li>
-              2 Months dedicated to your art practice, creating a body of work
-              you will keep.
-              <li>A platform to showcase your work</li>
-              <li>A $3000 stipend </li>
-              <li>An $800 supply stipend</li>
-              <li>
-                Admission into a network of artists and creatives in Cleveland{" "}
-              </li>
-            </li>
-          </ul>
-          <p>Residency Responsibilities</p>
-          <p>Eligibility</p>
-          <p>Adjudication</p>
           <p>How to Apply</p>
           <p>FAQ</p>
         </nav>

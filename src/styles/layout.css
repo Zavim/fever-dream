@@ -4,6 +4,7 @@
 }
 
 html {
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
@@ -33,11 +34,11 @@ a {
   font-family: "vulf mono black italic";
   display: flex;
   align-items: center;
-  padding: 30px 10px;
+  padding: min(1.875rem 0.625rem, 2rem);
   justify-content: space-evenly;
-  height: 120px;
+  height: 7.5rem;
   background: #ffffff;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .navbar > a {
@@ -70,9 +71,9 @@ a {
   flex-direction: column;
   padding: 1rem;
   height: auto;
-  width: 255px;
+  width: 15.9375rem;
   max-height: 9999px;
-  transform: translateY(5px);
+  transform: translateY(0.3125rem);
   transition: transform 0.2s ease-out;
 }
 
