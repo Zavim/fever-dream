@@ -16,37 +16,39 @@ export default function About() {
       <div className="container">
         <nav className="mission-container" id="mission">
           <nav className="mission-container-text">
-            <h2>mission statement</h2>
+            <h2>
+              mission <br /> statement
+            </h2>
             <p>
               feverdream is dedicated to supporting the careers of artists, in
               turn, cultivating and advancing fine art in Cleveland.
             </p>
           </nav>
-          {/* <nav className="mission-img-container"> */}
           <img src={mission} alt="AI generated image of"></img>
-          {/* </nav> */}
         </nav>
       </div>
       <div className="container">
         <nav className="vision-container" id="vision">
-          <img className="vision-img" src={vision} alt="placeholder" />
           <nav className="vision-container-text">
             <h2>vision</h2>
-            <p>
-              feverdream’s vision is to fill a niche within the artistic
-              community of Cleveland as an experimental space for artists to
-              thrive and grow, celebrating the following values: creative
-              development, collaboration, learning, and community. At the heart
-              of this vision lies the feverdream Residency program which offers
-              artists time, space, and funds to pursue the work they’re
-              passionate about. The program is particularly geared towards
-              young, emerging 2D artists within the scope of painting and
-              drawing. Resident artists’ practices will thrive within the
-              feverdream. And their admittance into the program in addition to
-              their contributions to feverdream's ongoing projects will key them
-              into a network of artists for a lifetime.
-            </p>
-            <nav>
+            <nav className="vision-container-text--split">
+              <img src={vision} alt="placeholder" />
+              <p>
+                feverdream’s vision is to fill a niche within the artistic
+                community of Cleveland as an experimental space for artists to
+                thrive and grow, celebrating the following values: creative
+                development, collaboration, learning, and community. At the
+                heart of this vision lies the feverdream Residency program which
+                offers artists time, space, and funds to pursue the work they’re
+                passionate about. The program is particularly geared towards
+                young, emerging 2D artists within the scope of painting and
+                drawing. Resident artists’ practices will thrive within the
+                feverdream. And their admittance into the program in addition to
+                their contributions to feverdream's ongoing projects will key
+                them into a network of artists for a lifetime.
+              </p>
+            </nav>
+            <nav className="collapsibles-container">
               <Collapsible
                 question={<h3>creative development</h3>}
                 answer={
@@ -94,14 +96,12 @@ export default function About() {
         <nav className="board-container" id="board">
           <nav className="board-bio">
             <nav className="board-bio-image-container">
-              <nav>
-                <img src={jesse} alt="placeholder" />
-              </nav>
+              <img src={jesse} alt="placeholder" />
               <h3>jesse grant</h3>
               <h4>Founder, Head of the Board</h4>
             </nav>
             <nav className="haiku-container">
-              <p className="jesse-haiku">
+              <p className="haiku">
                 <span>the universe in</span>
                 <br />
                 <span>a spirited silhouette</span>
@@ -113,9 +113,7 @@ export default function About() {
           </nav>
           <nav className="board-bio">
             <nav className="board-bio-image-container">
-              <nav>
-                <img src={christine} alt="placeholder" />
-              </nav>
+              <img src={christine} alt="placeholder" />
               <h3>christine grant</h3>
               <h4>Founder</h4>
             </nav>
@@ -130,11 +128,26 @@ export default function About() {
               <p className="haiku-more">More</p>
             </nav>
           </nav>
+          {/* <nav className="board-bio">
+            <nav className="board-bio-image-container">
+              <img src={christine} alt="placeholder" />
+              <h3>christine grant</h3>
+              <h4>Founder</h4>
+            </nav>
+            <nav className="haiku-container">
+              <p className="haiku">
+                <span>unicorn shaped by</span>
+                <br />
+                <span>too many worlds. Now waiting</span>
+                <br />
+                <span>for invitation</span>
+              </p>
+              <p className="haiku-more">More</p>
+            </nav>
+          </nav> */}
           <nav className="board-bio">
             <nav className="board-bio-image-container">
-              <nav>
-                <img src={erin} alt="placeholder" />
-              </nav>
+              <img src={erin} alt="placeholder" />
               <h3>erin guido</h3>
               <h4>Founder</h4>
             </nav>
@@ -151,9 +164,7 @@ export default function About() {
           </nav>
           <nav className="board-bio">
             <nav className="board-bio-image-container">
-              <nav>
-                <img src={johnPaul} alt="placeholder" />
-              </nav>
+              <img src={johnPaul} alt="placeholder" />
               <h3>john paul costello</h3>
               <h4>Founder</h4>
             </nav>
@@ -171,9 +182,7 @@ export default function About() {
           </nav>
           <nav className="board-bio">
             <nav className="board-bio-image-container">
-              <nav>
-                <img src={maxmillian} alt="placeholder" />
-              </nav>
+              <img src={maxmillian} alt="placeholder" />
               <h3>maxmillian peralta</h3>
               <h4>Program Director</h4>
             </nav>
