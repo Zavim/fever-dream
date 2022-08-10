@@ -28,11 +28,17 @@
 
 main {
   background-image: url("../../backgrounds/seamless_pink.png");
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 img {
-  border: 1rem solid #fbe0dd;
+  display: block;
+  border: 0.75rem solid #fbe0dd;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(100%, 150rem);
 }
 
 .navbar-support {
@@ -66,24 +72,36 @@ img {
 
 h2 {
   font-family: "vulf mono bold italic";
-  font-size: 48px;
+  font-size: 2rem;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+p {
+  width: 80%;
 }
 
 .contact-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
-  padding-top: 134px;
+  padding-top: 8.375rem;
   font-family: "vulf sans regular";
 }
 
 .contact-container-text {
-  left: 0;
-  padding-right: 13vw;
-  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 6.67% 0;
+  width: 100%;
 }
 
 .contact-form {
-  padding-top: 15px;
+  padding-top: 0.9375rem;
+  padding-bottom: 3rem;
+  width: 80%;
 }
 
 .email {
@@ -96,17 +114,19 @@ h2 {
 }
 
 input {
-  border: 4px solid #e6bcb8;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  width: 425px;
-  height: 51px;
+  border: 0.25rem solid #e6bcb8;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.625rem;
+  width: 100%;
+  height: 3.188rem;
   font-size: 100%;
 }
 
 .contact-img-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   /* right: 190px; */
   /* display: grid;
   grid-template-columns: 1fr;
@@ -114,8 +134,8 @@ input {
 }
 
 .contact-img-container > img {
-  margin-bottom: 30px;
-  width: 488px;
+  margin-bottom: 1.875rem;
+  max-width: 80%;
 }
 
 footer {
@@ -124,4 +144,24 @@ footer {
 
 .footer-socials > a > img {
   border: none;
+}
+@media (min-width: 50em) {
+  h2 {
+    font-size: 3rem;
+  }
+  .contact-container {
+    flex-direction: row;
+  }
+  .contact-container > * {
+    flex-basis: 100%;
+  }
+  .contact-container-text {
+    align-items: flex-start;
+  }
+  .contact-img-container > img {
+    width: 100%;
+  }
+  input {
+    width: 26.56rem;
+  }
 }

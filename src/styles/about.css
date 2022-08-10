@@ -94,7 +94,7 @@ img {
 
 .mission-container-text {
   /* width: min(75%, 40rem); */
-  padding: 0 11.4% 0 12%;
+  padding: 0 6.67% 0;
   max-width: 100%;
   /* margin-right: 10rem; */
 }
@@ -157,6 +157,9 @@ img {
   .mission-container > img {
     right: 6.67%;
     width: 42%;
+  }
+  .mission-container-text {
+    padding: 0 11.4% 0 12%;
   }
   .collapsibles-container {
     position: relative;
