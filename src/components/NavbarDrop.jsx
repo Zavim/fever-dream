@@ -24,7 +24,7 @@ export default function NavbarDrop() {
             "/residency#faq",
           ]}
         />
-        <Dropdown
+        {/* <Dropdown
           label={<h3 className="navbar-dreamjournal">dreamjournal</h3>}
           content={["dreamjournal", "news", "archive"]}
           links={[
@@ -32,7 +32,7 @@ export default function NavbarDrop() {
             "/dreamjournal#news",
             "/dreamjournal#archive",
           ]}
-        />
+        /> */}
         <a href="/support">
           <h3 className="navbar-support">support</h3>
         </a>

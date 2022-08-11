@@ -109,9 +109,10 @@ export default function Residency() {
                 </ul>
               }
             />
-
-            <p>How to Apply</p>
-            <p>FAQ</p>
+            {/* <Collapsible
+              question={<a href="/residency#apply">How to Apply</a>}
+            />
+            <Collapsible question={<a href="/residency#faq">FAQ</a>} /> */}
           </nav>
           <img src={about} alt="placeholder" />
         </nav>
@@ -342,7 +343,9 @@ export default function Residency() {
             />
           </nav>
         </nav>
-        <button className="apply-button">apply</button>
+        <button className="apply-button" id="apply">
+          apply
+        </button>
       </nav>
     </>
   );
