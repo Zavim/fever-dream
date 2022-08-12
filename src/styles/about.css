@@ -36,7 +36,8 @@ main {
   margin-inline: auto;
 }
 
-.navbar-about {
+.navbar-about,
+.hamburger-dropdown > .dropdown > .label > button {
   color: #b5bfbf;
 }
 

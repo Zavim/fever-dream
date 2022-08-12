@@ -343,9 +343,9 @@ export default function Residency() {
             />
           </nav>
         </nav>
-        <button className="apply-button" id="apply">
+        {/* <button className="apply-button" id="apply">
           apply
-        </button>
+        </button> */}
       </nav>
     </>
   );
