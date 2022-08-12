@@ -85,19 +85,21 @@ a {
 footer {
   font-family: "vulf mono bold italic";
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  height: 70vh;
-  padding-top: 29vh;
+  height: 55vh;
+  margin-top: -48vh;
+  padding: 45vh 0 18vh;
 }
 
 .footer-contact {
-  padding-right: 2vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 2rem 2rem;
 }
 
 .footer-links {
@@ -105,19 +107,20 @@ footer {
   border-color: #ffffff;
   border-top-color: #1fe0;
   border-bottom-color: #1fe0;
-  padding: 0 19px;
+  padding: 0 1.1875rem;
+  display: none;
 }
 
 .footer-links > a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.56rem;
 }
 
 .footer-feverdream {
   font-family: "vulf mono black italic";
-  font-size: 35px;
-  margin-bottom: 20px;
+  font-size: 2.1875rem;
+  margin-bottom: 1.25rem;
   color: #ffffff;
 }
 
@@ -126,17 +129,33 @@ footer {
   border: 3.64666px solid #ffffff;
   color: #ffffff;
   text-align: center;
-  line-height: 40px;
-  width: 222px;
-  font-size: 25px;
+  line-height: 2.5rem;
+  width: 13.875rem;
+  font-size: 1.5625rem;
 }
 
 .footer-socials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1em;
-  padding-left: 52px;
+  gap: 1rem;
+  padding-left: 0;
 }
+
 .footer-socials-icon {
-  width: 35px;
+  width: 2.1875rem;
+}
+
+@media (min-width: 50em) {
+  footer {
+    flex-direction: row;
+  }
+  .footer-contact {
+    padding-bottom: 0;
+  }
+  .footer-socials {
+    padding-left: 3.25rem;
+  }
+  .footer-links {
+    display: block;
+  }
 }

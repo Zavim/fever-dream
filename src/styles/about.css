@@ -222,7 +222,7 @@ img {
   align-items: center;
   justify-content: space-between;
   min-height: max-content;
-  padding: 10rem 0 0;
+  padding: 10rem 0 20rem;
 }
 
 .board-container > h2 {
@@ -271,15 +271,10 @@ h4 {
 }
 
 .haiku {
-  /* position: absolute;
-  transform: translateY(-9.375rem);
-  right: 12.5rem; */
   font-family: "vulf mono italic";
   text-align: center;
   font-size: 1.25rem;
   padding: 0 1em 0;
-  /* line-break: normal; */
-  /* margin-bottom: 122px; */
 }
 
 .haiku-more {
