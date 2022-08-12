@@ -6,24 +6,24 @@ import Navbar from "../components/Navbar.jsx";
 ---
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-</head>
+  <body>
+    <Navbar client:load />
+    <nav class="enter-button-container">
+      <a href="/about">
+        <h1 class="enter-button">(feverdream)</h1>
+      </a>
+    </nav>
 
-<body>
-	<Navbar client:load />
-	<a href="/about">
-		<h1 class="enter-button">(feverdream)</h1>
-	</a>
-
-	<section class="showcase">
-		<video muted loop autoplay>
-			<source src="../videos/finalfever1080.mp4" type="video/mp4" />
-		</video>
-	</section>
-</body>
-
+    <section class="showcase">
+      <video muted loop autoplay>
+        <source src="../videos/finalfever1080.mp4" type="video/mp4" />
+      </video>
+    </section>
+  </body>
 </html>

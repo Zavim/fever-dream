@@ -94,10 +94,8 @@ img {
 }
 
 .mission-container-text {
-  /* width: min(75%, 40rem); */
   padding: 0 6.67% 0;
   max-width: 100%;
-  /* margin-right: 10rem; */
 }
 
 .mission-container > img {

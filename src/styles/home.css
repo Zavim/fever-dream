@@ -23,6 +23,10 @@
   padding: 0;
 }
 
+.hamburger-dropdown > .dropdown > .label > button {
+  color: #ffffff;
+}
+
 .navbar {
   position: fixed;
   width: 100vw;
@@ -32,27 +36,39 @@
 }
 
 .navbar > a {
+  display: none;
   color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  animation: moveInTop 1s ease-out 3s;
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  animation: moveInTop 1s ease-out 2s;
   animation-duration: 1s;
   animation-fill-mode: backwards;
 }
 
 .navbar-button {
-  font-size: 28px;
+  font-size: 1.75rem;
+}
+
+.content.open {
+  background: #ffffff;
+}
+
+.enter-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40vh;
+  width: 100vw;
+  position: absolute;
 }
 
 .enter-button {
   font-family: "vulf mono italic";
   color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 112px;
-  position: fixed;
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  font-size: 2rem;
+  position: relative;
   z-index: 2;
-  top: 50vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .showcase {
@@ -65,5 +81,20 @@
 
 .showcase > video {
   display: block;
-  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 50em) {
+  .navbar > a {
+    display: block;
+  }
+}
+
+@media (min-width: 60em) {
+  .enter-button {
+    font-size: 8vw;
+  }
+  .showcase > video {
+    width: 100%;
+  }
 }
