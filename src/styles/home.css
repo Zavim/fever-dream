@@ -23,6 +23,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #000000;
+}
+
 .hamburger-dropdown > .dropdown > .label > button {
   color: #ffffff;
 }
@@ -73,13 +77,16 @@
 
 .showcase {
   position: absolute;
-  right: 0;
+  /* right: 0; */
   width: 100%;
   height: 100vh;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .showcase > video {
+  /* width: 100%; */
+  position: absolute;
   display: block;
   object-fit: cover;
 }
@@ -96,5 +103,14 @@
   }
   .showcase > video {
     width: 100%;
+  }
+}
+
+@media (min-height: 1080px) {
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
