@@ -115,7 +115,7 @@ footer {
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  height: 55vh;
+  height: 100vh;
   margin-top: -48vh;
   padding: 45vh 0 18vh;
 }
@@ -190,6 +190,7 @@ footer {
   }
   footer {
     flex-direction: row;
+    height: 55vh;
   }
   .footer-contact {
     padding-right: 1rem;

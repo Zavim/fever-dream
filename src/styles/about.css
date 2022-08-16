@@ -221,7 +221,7 @@ img {
   align-items: center;
   justify-content: space-between;
   min-height: max-content;
-  padding: 10rem 0 20rem;
+  padding: 12rem 0 20rem;
 }
 
 .board-container > h2 {
@@ -232,6 +232,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .board-bio-image-container {
@@ -271,7 +272,7 @@ h4 {
   font-family: "vulf mono italic";
   text-align: center;
   font-size: 0.99rem;
-  margin-top: 15%;
+  margin: 15% 0;
   /* padding: 0 1em 0; */
 }
 
@@ -334,14 +335,11 @@ footer {
     padding-left: 15%;
   }
   .board-bio {
-    /* margin-bottom: 2.8125rem; */
+    margin-bottom: 0;
   }
   .board-container > .board-bio {
     flex-direction: row;
   }
-  /* .board-container > .board-bio * {
-    flex-basis: 100%;
-  } */
   .board-container > .board-bio > .board-bio-image-container > img {
     max-width: 100%;
     right: 6.67%;
@@ -355,6 +353,9 @@ footer {
     /* margin: 5.3rem 0 0 2rem; */
     margin: 0 0 0 2rem;
     width: 45vw;
+  }
+  .haiku {
+    margin-bottom: 0;
   }
 }
 
