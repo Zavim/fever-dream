@@ -232,14 +232,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 2.8125rem;
 }
 
 .board-bio-image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5.3rem;
 }
 
 .board-bio-image-container > img {
@@ -335,6 +333,9 @@ footer {
   .board-container {
     padding-left: 15%;
   }
+  .board-bio {
+    /* margin-bottom: 2.8125rem; */
+  }
   .board-container > .board-bio {
     flex-direction: row;
   }
@@ -347,10 +348,12 @@ footer {
     /* width: 42%; */
   }
   .board-bio-image-container {
+    /* margin-top: 5.3rem; */
     max-width: 27vw;
   }
   .haiku-container {
-    margin: 5.3rem 0 0 2rem;
+    /* margin: 5.3rem 0 0 2rem; */
+    margin: 0 0 0 2rem;
     width: 45vw;
   }
 }

@@ -98,7 +98,7 @@ export default function About() {
             <nav className="board-bio-image-container">
               <img src={jesse} alt="placeholder" />
               <h3>jesse grant</h3>
-              <h4>Founder, Head of the Board</h4>
+              <h4>Founder</h4>
             </nav>
             <nav className="haiku-container">
               <p className="haiku">
