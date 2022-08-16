@@ -339,9 +339,9 @@ footer {
   .board-container > .board-bio {
     flex-direction: row;
   }
-  .board-container > .board-bio * {
+  /* .board-container > .board-bio * {
     flex-basis: 100%;
-  }
+  } */
   .board-container > .board-bio > .board-bio-image-container > img {
     max-width: 100%;
     right: 6.67%;
