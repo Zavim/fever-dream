@@ -3,24 +3,24 @@ import "../styles/layout.css";
 import "../styles/about.css";
 
 import NavbarDrop from "../components/NavbarDrop.jsx";
+import BacktoTop from "../components/BacktoTop";
 import About from "../components/About.jsx";
 import Footer from "../components/Footer.jsx";
 ---
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-</head>
-
-<body>
-	<main>
-		<NavbarDrop client:load />
-		<About client:visible />
-		<Footer />
-	</main>
-</body>
-
+  <body>
+    <main>
+      <NavbarDrop client:load />
+      <BacktoTop client:visible />
+      <About client:visible />
+      <Footer />
+    </main>
+  </body>
 </html>

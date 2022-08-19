@@ -108,6 +108,13 @@ a {
   color: #000000;
 }
 
+.back-to-top-button {
+  position: fixed;
+  z-index: 3;
+  bottom: 1rem;
+  right: 2rem;
+}
+
 footer {
   font-family: "vulf mono bold italic";
   display: flex;
