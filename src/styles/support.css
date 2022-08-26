@@ -148,7 +148,7 @@ footer {
     align-items: flex-start;
   }
   .contact-img-container > img {
-    width: 100%;
+    max-width: 80%;
   }
   input {
     width: 26.56rem;

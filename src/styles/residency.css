@@ -294,7 +294,7 @@ footer {
   }
   .goal-container > img {
     left: 12%;
-    width: 35%;
+    max-width: 35%;
   }
   .goal-container-text {
     padding: 0 11.4% 0 12%;
@@ -307,7 +307,7 @@ footer {
   }
   .about-container > img {
     margin-right: 4%;
-    width: 32%;
+    max-width: 33%;
   }
   .about-container-text {
     padding: 0 5% 0 12.6%;
@@ -320,7 +320,7 @@ footer {
   }
   .facilities-container > img {
     margin-left: 7%;
-    width: 36%;
+    max-width: 36%;
   }
   .facilities-container-text {
     padding: 0 11% 0 8%;
@@ -333,7 +333,7 @@ footer {
   }
   .residents-container > img {
     margin-left: 7%;
-    width: 44%;
+    max-width: 35%;
   }
   .residents-container-text {
     padding: 0 11% 0 8%;

@@ -67,7 +67,6 @@ p {
 
 img {
   display: block;
-  /* max-width: 100%; */
 }
 
 .container {
@@ -310,7 +309,7 @@ footer {
   .vision-container-text > .vision-container-text--split > img {
     position: relative;
     left: 5.5%;
-    width: 39%;
+    max-width: 33%;
   }
   .mission-container {
     flex-direction: row;
@@ -320,7 +319,7 @@ footer {
   }
   .mission-container > img {
     right: 6.67%;
-    width: 42%;
+    max-width: 33%;
   }
   .mission-container-text {
     padding: 0 11.4% 0 12%;

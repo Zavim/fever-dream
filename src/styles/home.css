@@ -75,6 +75,10 @@ body {
   text-align: center;
 }
 
+.enter-button:hover {
+  mix-blend-mode: difference;
+}
+
 .showcase {
   position: absolute;
   /* right: 0; */

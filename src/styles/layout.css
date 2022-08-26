@@ -85,7 +85,7 @@ a {
   position: absolute;
   max-height: 0;
   overflow: hidden;
-  transform: translateY(-5px);
+  transform: translateY(-0.3125rem);
   transition: transform 0.2s ease-out;
 }
 
@@ -95,7 +95,6 @@ a {
   flex-direction: column;
   padding: 1rem;
   height: auto;
-  /* width: 15.9375rem; */
   max-width: min-content;
   max-height: 9999px;
   transform: translateY(0.3125rem);
