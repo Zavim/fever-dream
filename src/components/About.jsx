@@ -8,11 +8,13 @@ import johnPaul from "/images/johnPaul.jpg";
 import maxmillian from "/images/maxmillian.jpg";
 
 import Collapsible from "./Collapsible";
+import FadeOnScroll from "./FadeOnScroll";
 
 export default function About() {
   //make this a drop down with focus
   return (
     <>
+      <FadeOnScroll />
       <div className="container">
         <nav className="mission-container" id="mission">
           <nav className="mission-container-text">
@@ -94,7 +96,7 @@ export default function About() {
       <div className="container">
         <h2 className="board-title">board</h2>
         <nav className="board-container" id="board">
-          <nav className="board-bio">
+          <nav className="board-bio" id="jesse-board-bio">
             <nav className="board-bio-image-container">
               <img src={jesse} alt="placeholder" />
               <h3>jesse grant</h3>
@@ -111,7 +113,7 @@ export default function About() {
               <p className="haiku-more">More</p>
             </nav>
           </nav>
-          <nav className="board-bio">
+          <nav className="board-bio" id="christine-board-bio">
             <nav className="board-bio-image-container">
               <img src={christine} alt="placeholder" />
               <h3>christine grant</h3>
@@ -145,7 +147,7 @@ export default function About() {
               <p className="haiku-more">More</p>
             </nav>
           </nav> */}
-          <nav className="board-bio">
+          <nav className="board-bio" id="erin-board-bio">
             <nav className="board-bio-image-container">
               <img src={erin} alt="placeholder" />
               <h3>erin guido</h3>
@@ -162,7 +164,7 @@ export default function About() {
               <p className="haiku-more">More</p>
             </nav>
           </nav>
-          <nav className="board-bio">
+          <nav className="board-bio" id="johnPaul-board-bio">
             <nav className="board-bio-image-container">
               <img src={johnPaul} alt="placeholder" />
               <h3>john paul costello</h3>
@@ -180,7 +182,7 @@ export default function About() {
               <p className="haiku-more">More</p>
             </nav>
           </nav>
-          <nav className="board-bio">
+          <nav className="board-bio" id="maxmillian-board-bio">
             <nav className="board-bio-image-container">
               <img src={maxmillian} alt="placeholder" />
               <h3>maxmillian peralta</h3>

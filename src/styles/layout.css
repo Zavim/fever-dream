@@ -19,8 +19,8 @@ html {
 }
 
 @font-face {
-  font-family: "vulf mono italic";
-  src: url("../../fonts/mono/Vulf_Mono-Italic_web.ttf") format("truetype");
+  font-family: "vulf sans regular";
+  src: url("../../fonts/mono/Vulf_Sans-Regular_web.ttf") format("truetype");
 }
 
 a {
@@ -70,6 +70,7 @@ a {
 }
 
 .dropdown {
+  width: 25%;
   cursor: pointer;
   display: none;
 }
@@ -95,19 +96,29 @@ a {
   flex-direction: column;
   padding: 1rem;
   height: auto;
-  max-width: min-content;
+  max-width: 25vw;
   max-height: 9999px;
+  text-align: center;
   transform: translateY(0.3125rem);
   transition: transform 0.2s ease-out;
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 .content.open > a {
-  font-family: "vulf mono bold italic";
+  font-family: "vulf sans regular";
   color: #000000;
 }
 
+.content.open > a :hover {
+  text-decoration: none;
+}
+
 .back-to-top-button {
+  border-radius: 100%;
+  background-color: #d4dede;
+  padding: 1.5em;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border: none;
   position: fixed;
   z-index: 3;
   bottom: 1rem;

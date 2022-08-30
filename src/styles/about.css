@@ -36,6 +36,14 @@ main {
   margin-inline: auto;
 }
 
+.label :hover {
+  text-decoration: underline #b5bfbf;
+}
+
+.navbar > a :hover {
+  text-decoration: underline #b5bfbf;
+}
+
 .navbar-about,
 .hamburger-dropdown > .dropdown > .label > button {
   color: #b5bfbf;
@@ -307,7 +315,8 @@ footer {
     flex-basis: 44%;
   }
   .vision-container-text > .vision-container-text--split > img {
-    position: relative;
+    position: sticky;
+    top: 15rem;
     left: 5.5%;
     max-width: 33%;
   }
@@ -335,6 +344,8 @@ footer {
   }
   .board-bio {
     margin-bottom: 0;
+    /* position: sticky; */
+    top: 8rem;
   }
   .board-container > .board-bio {
     flex-direction: row;

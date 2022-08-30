@@ -49,6 +49,14 @@ li {
   width: min(100%, 150rem);
 }
 
+.label :hover {
+  text-decoration: underline #aec48e;
+}
+
+.navbar > a :hover {
+  text-decoration: underline #aec48e;
+}
+
 .navbar-residency,
 .hamburger-dropdown > .dropdown > .label > button {
   color: #aec48e;

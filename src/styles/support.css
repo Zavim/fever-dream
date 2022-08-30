@@ -41,6 +41,14 @@ img {
   width: min(100%, 150rem);
 }
 
+.label :hover {
+  text-decoration: underline #e6bcb8;
+}
+
+.navbar > a :hover {
+  text-decoration: underline #e6bcb8;
+}
+
 .navbar-support,
 .hamburger-dropdown > .dropdown > .label > button {
   color: #e6bcb8;
