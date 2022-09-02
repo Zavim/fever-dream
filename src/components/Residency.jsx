@@ -5,6 +5,7 @@ import about from "/images/about.jpg";
 import facilities from "/images/facilities.jpg";
 
 import Collapsible from "./Collapsible";
+import Curtain from "./Curtain";
 
 export default function Residency() {
   return (
@@ -26,6 +27,24 @@ export default function Residency() {
         <nav className="about-container" id="about">
           <nav className="about-container-text">
             <h2>about</h2>
+            <Curtain
+              curtain={<p>Residency Benefits</p>}
+              curtainContent={
+                <ul>
+                  <li>
+                    2 Months dedicated to your art practice, creating a body of
+                    work you will keep.
+                  </li>
+                  <li>A platform to showcase your work</li>
+                  <li>A $3000 stipend </li>
+                  <li>An $800 supply stipend</li>
+                  <li>
+                    Admission into a network of artists and creatives in
+                    Cleveland{" "}
+                  </li>
+                </ul>
+              }
+            />
             <Collapsible
               question={<p>Residency Benefits</p>}
               answer={

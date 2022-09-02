@@ -259,6 +259,60 @@ img {
   padding: 1em 1.5em;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  /* 80% {
+    transform: translateY(5px);
+  } */
+  100% {
+    opacity: 1;
+  }
+}
+
+.curtain {
+  cursor: pointer;
+  padding-bottom: 1.25rem;
+}
+
+.curtain-text {
+  display: flex;
+  align-items: center;
+}
+
+.curtain-content {
+  background: #aec48e;
+  /* height: 0; */
+  /* max-height: 0; */
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  /* transition: all 0.25s cubic-bezier(0, 1, 0, 1); */
+  /* transition: transform 0.2s ease-out; */
+}
+
+.curtain-content > p {
+  padding: 1rem;
+}
+
+.curtain-content.open {
+  display: block;
+  max-width: 45%;
+  background: #aec48e;
+  /* height: auto; */
+  max-height: 9999px;
+  /* transition: transform 0.2s ease-out; */
+  animation: fadeIn ease-out 2s;
+  animation-duration: 0.5s;
+  animation-fill-mode: backwards;
+  /* transition: all 0.25s cubic-bezier(1, 0, 1, 0); */
+}
+
+.curtain-content.open > ul {
+  padding: 1em 1.5em;
+}
+
 .dropdown-button {
   width: 1.875rem;
   border: none;

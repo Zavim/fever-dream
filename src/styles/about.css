@@ -126,7 +126,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   min-height: max-content;
-  padding-bottom: 2.75rem;
+  /* padding-bottom: 2.75rem;  */
 }
 
 .vision-container-text > .vision-container-text--split > img {
@@ -210,6 +210,7 @@ img {
 }
 
 .board-title {
+  margin-top: 0;
   padding-left: 17vw;
   transform: translateY(10rem);
 }
@@ -228,7 +229,7 @@ img {
   align-items: center;
   justify-content: space-between;
   min-height: max-content;
-  padding: 12rem 0 20rem;
+  padding: 11rem 0 20rem;
 }
 
 .board-container > h2 {
@@ -315,8 +316,8 @@ footer {
     flex-basis: 44%;
   }
   .vision-container-text > .vision-container-text--split > img {
-    position: sticky;
-    top: 15rem;
+    position: relative;
+    /* top: 15rem; */
     left: 5.5%;
     max-width: 33%;
   }

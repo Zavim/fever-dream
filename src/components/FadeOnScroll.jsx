@@ -1,13 +1,6 @@
 import React, { useEffect } from "react";
 import lax from "lax.js";
 
-// function Spinner() {
-//   return (
-//     <h1 className="fadeOut">scroll me</h1>
-//     // <h1 className="fadeOut">scroll me</h1>
-//   );
-// }
-
 export default function FadeOnScroll(props) {
   const { elements } = props;
   useEffect(() => {
@@ -19,11 +12,11 @@ export default function FadeOnScroll(props) {
       return window.scrollY;
     });
 
-    //     //add elements
+    //add elements
     lax.addElements(".mission-container", {
       scrollY: {
         opacity: [
-          [0, 700],
+          [0, "elHeight"],
           [1, 0],
         ],
       },
@@ -31,7 +24,7 @@ export default function FadeOnScroll(props) {
     lax.addElements(".vision-container", {
       scrollY: {
         opacity: [
-          [700, 1400],
+          ["elHeight", "elHeight*2.4"],
           [1, 0],
         ],
       },
