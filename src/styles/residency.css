@@ -219,7 +219,7 @@ img {
 }
 
 .faq-container {
-  padding-bottom: 20rem;
+  padding-bottom: 5rem;
   padding-top: 4rem;
   background: #000000;
 }
@@ -349,6 +349,7 @@ img {
 
 footer {
   /* background: #d2dec0; */
+  margin-top: 0;
   background: #aec48e;
 }
 
@@ -411,7 +412,6 @@ footer {
   }
   .faq-container {
     flex-direction: row;
-    padding-bottom: 15rem;
   }
   .faq-container-text {
     padding: 0 11% 15% 8%;
