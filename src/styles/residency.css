@@ -196,7 +196,7 @@ img {
   min-height: max-content;
   /* padding-left: 4.125rem;
   padding-right: 11.875rem; */
-  padding-top: 8.938rem;
+  padding: 8.938rem 0 9rem;
 }
 
 .residents-container > img {
@@ -220,11 +220,13 @@ img {
 
 .faq-container {
   padding-bottom: 20rem;
-  padding-top: 14.06rem;
+  padding-top: 4rem;
+  background: #000000;
 }
 
 .faq-container-text {
-  padding: 0 6.67% 0;
+  padding: 0 6.67% 0%;
+  color: #ffffff;
 }
 
 .question {
@@ -245,6 +247,7 @@ img {
 }
 
 .answer > p {
+  color: #000000;
   padding: 1rem;
 }
 
@@ -252,6 +255,7 @@ img {
   background: #aec48e;
   height: auto;
   max-height: 9999px;
+  animation: fadeIn ease-out 1s;
   transition: all 0.25s cubic-bezier(1, 0, 1, 0);
 }
 
@@ -344,7 +348,8 @@ img {
 } */
 
 footer {
-  background: linear-gradient(0deg, #d2dec0 55.8%, rgba(255, 255, 255, 0) 100%);
+  /* background: #d2dec0; */
+  background: #aec48e;
 }
 
 @media (min-width: 50em) {
@@ -408,6 +413,6 @@ footer {
     flex-direction: row;
   }
   .faq-container-text {
-    padding: 0 11% 0 8%;
+    padding: 0 11% 15% 8%;
   }
 }
