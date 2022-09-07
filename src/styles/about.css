@@ -79,7 +79,7 @@ img {
 
 .container {
   margin-inline: auto;
-  width: min(100%, 150rem);
+  /* width: min(100%, 150rem); */
 }
 
 .mission-container {

@@ -46,7 +46,7 @@ li {
 
 .container {
   margin-inline: auto;
-  width: min(100%, 150rem);
+  /* width: min(100%, 150rem); */
 }
 
 .label :hover {
@@ -274,11 +274,13 @@ img {
 .curtain {
   cursor: pointer;
   padding-bottom: 1.25rem;
+  /* position: absolute; */
 }
 
 .curtain-text {
   display: flex;
   align-items: center;
+  /* position: absolute; */
 }
 
 .curtain-content {
@@ -287,7 +289,8 @@ img {
   /* max-height: 0; */
   display: none;
   overflow: hidden;
-  position: absolute;
+  /* position: relative; */
+  animation: fadeIn ease-out 2s;
   /* transition: all 0.25s cubic-bezier(0, 1, 0, 1); */
   /* transition: transform 0.2s ease-out; */
 }
@@ -298,7 +301,7 @@ img {
 
 .curtain-content.open {
   display: block;
-  max-width: 45%;
+  /* max-width: 45%; */
   background: #aec48e;
   /* height: auto; */
   max-height: 9999px;

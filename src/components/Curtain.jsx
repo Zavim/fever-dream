@@ -10,8 +10,11 @@ export default function Curtain(props) {
 
   return (
     <div className="curtain" onClick={() => toggle(open)}>
-      <nav className="curtain-text">{curtain}</nav>
-      <nav className={open ? "curtain-content open" : "curtain-content"}>
+      {!open ? <nav className="curtain-text">{curtain}</nav> : <></>}
+      <nav
+        className={open ? "curtain-content open" : "curtain-content"}
+        onClick={() => toggle(open)}
+      >
         {curtainContent}
       </nav>
     </div>

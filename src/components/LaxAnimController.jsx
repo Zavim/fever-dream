@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import lax from "lax.js";
 
-export default function FadeOnScroll(props) {
+export default function LaxAnimController(props) {
   const { elements } = props;
   useEffect(() => {
     //setup lax
@@ -13,10 +13,18 @@ export default function FadeOnScroll(props) {
     });
 
     //add elements
+    lax.addElements("#spinner", {
+      scrollY: {
+        rotate: [
+          [0, "pageHeight/1.2"],
+          [0, 360],
+        ],
+      },
+    });
     lax.addElements(".mission-container", {
       scrollY: {
         opacity: [
-          [0, "elHeight"],
+          ["elInY/5", "elOutY"],
           [1, 0],
         ],
       },

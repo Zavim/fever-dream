@@ -8,13 +8,13 @@ import johnPaul from "/images/johnPaul.jpg";
 import maxmillian from "/images/maxmillian.jpg";
 
 import Collapsible from "./Collapsible";
-import FadeOnScroll from "./FadeOnScroll";
+import LaxAnimController from "./LaxAnimController";
 
 export default function About() {
   //make this a drop down with focus
   return (
     <>
-      <FadeOnScroll />
+      <LaxAnimController />
       <div className="container">
         <nav className="mission-container" id="mission">
           <nav className="mission-container-text">

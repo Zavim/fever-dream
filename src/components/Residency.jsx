@@ -5,11 +5,13 @@ import about from "/images/about.jpg";
 import facilities from "/images/facilities.jpg";
 
 import Collapsible from "./Collapsible";
+import LaxAnimController from "./LaxAnimController";
 import Curtain from "./Curtain";
 
 export default function Residency() {
   return (
     <>
+      <LaxAnimController />
       <nav className="container">
         <nav className="goal-container" id="goal">
           <img src={goal} alt="placeholder"></img>
@@ -45,27 +47,9 @@ export default function Residency() {
                 </ul>
               }
             />
-            <Collapsible
-              question={<p>Residency Benefits</p>}
-              answer={
-                <ul>
-                  <li>
-                    2 Months dedicated to your art practice, creating a body of
-                    work you will keep.
-                  </li>
-                  <li>A platform to showcase your work</li>
-                  <li>A $3000 stipend </li>
-                  <li>An $800 supply stipend</li>
-                  <li>
-                    Admission into a network of artists and creatives in
-                    Cleveland{" "}
-                  </li>
-                </ul>
-              }
-            />
-            <Collapsible
-              question={<p>Residency Responsibilities</p>}
-              answer={
+            <Curtain
+              curtain={<p>Residency Responsibilities</p>}
+              curtainContent={
                 <ul>
                   <li>Create a self-directed body of work for The Shoreway</li>
                   <li>Cooperate with Fever Dream marketing efforts </li>
@@ -73,9 +57,9 @@ export default function Residency() {
                 </ul>
               }
             />
-            <Collapsible
-              question={<p>Eligibility</p>}
-              answer={
+            <Curtain
+              curtain={<p>Eligibility</p>}
+              curtainContent={
                 <ul>
                   <li>You must be 21 years old or older </li>
                   <li>
@@ -91,9 +75,9 @@ export default function Residency() {
                 </ul>
               }
             />
-            <Collapsible
-              question={<p>Adjudication</p>}
-              answer={
+            <Curtain
+              curtain={<p>Adjudication</p>}
+              curtainContent={
                 <ul>
                   <li>
                     The final candidate for the residency program is decided by
@@ -104,9 +88,9 @@ export default function Residency() {
                 </ul>
               }
             />
-            <Collapsible
-              question={<p>Apply</p>}
-              answer={
+            <Curtain
+              curtain={<p>Apply</p>}
+              curtainContent={
                 <ul>
                   <li>
                     Submit an application to become the next Fever Dream
@@ -128,10 +112,6 @@ export default function Residency() {
                 </ul>
               }
             />
-            {/* <Collapsible
-              question={<a href="/residency#apply">How to Apply</a>}
-            />
-            <Collapsible question={<a href="/residency#faq">FAQ</a>} /> */}
           </nav>
           <img src={about} alt="placeholder" />
         </nav>
