@@ -27,6 +27,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "vulf sans medium";
+  src: url("../../fonts/sans/Vulf_Sans-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
 * {
   margin: 0px;
 }
@@ -129,9 +135,8 @@ img {
     rgba(255, 255, 255, 0) 100%
   );
   background-blend-mode: soft-light;
-  min-height: max-content;
   padding-bottom: 2.75rem;
-  padding-top: 10.375rem;
+  /* padding-top: 10.375rem; */
 }
 
 .about-container > img {
@@ -140,6 +145,7 @@ img {
 }
 
 .about-container-text {
+  height: 34rem;
   font-size: 1.5rem;
   padding: 0 6.7% 0;
 }
@@ -210,12 +216,20 @@ img {
   /* width: 40vw; */
 }
 
+.resident-link {
+  text-decoration: none;
+  color: #aec48e;
+  font-family: "vulf sans medium";
+}
+
 .residents-container-text-lower {
   padding-top: 6.25rem;
 }
 
 .residents-here-button {
   font-family: "vulf sans bold italic";
+  text-decoration: none;
+  color: #aec48e;
 }
 
 .faq-container {
@@ -324,6 +338,7 @@ img {
   width: 1.875rem;
   border: none;
   padding-left: 1rem;
+  filter: hue-rotate(50deg);
 }
 
 /* .apply-button {
@@ -372,6 +387,7 @@ footer {
   }
   .about-container {
     flex-direction: row;
+    align-items: none;
   }
   .about-container > * {
     flex-basis: 100%;
@@ -414,6 +430,6 @@ footer {
     flex-direction: row;
   }
   .faq-container-text {
-    padding: 0 11% 15% 8%;
+    padding: 0 11% 0 8%;
   }
 }

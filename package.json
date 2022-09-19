@@ -16,6 +16,8 @@
     "react-dom": "^18.1.0"
   },
   "dependencies": {
-    "lax.js": "^2.0.3"
+    "@nanostores/react": "^0.4.0",
+    "lax.js": "^2.0.3",
+    "nanostores": "^0.7.0"
   }
 }

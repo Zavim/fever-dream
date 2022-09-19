@@ -122,11 +122,11 @@ export default function Residency() {
           <nav className="facilities-container-text">
             <h2>facilities</h2>
             <p>
-              feverdream offers a x sq. ft studio space dedicated to be used by
-              the resident. The studio space is equipped with the following:
-              [pertinent studio equipment]. It also utilizes an exhibition space
-              in the lobby of The Shoreway with x ft of wall space to exhibit
-              the work done during the residency.
+              feverdream offers a robust studio space located in Tremont
+              dedicated to be used by the resident. The space is equipped with
+              plenty of workspace, printers, TVs, a full kitchen, dining and
+              lounge areas, bathrooms, a slop sink, and a beautiful view of
+              downtown Cleveland.{" "}
             </p>
           </nav>
         </nav>
@@ -138,14 +138,28 @@ export default function Residency() {
             <h2>residents</h2>
             <p>
               feverdream is proud to <br />
-              present [name] as its <br />
+              present{" "}
+              <a
+                href="https://instagram.com/nobrainmycar?igshid=YzA2ZDJiZGQ="
+                target="_blank"
+                className="resident-link"
+              >
+                Nolan Meyer
+              </a>{" "}
+              as its <br />
               current resident.
             </p>
             <nav className="residents-container-text-lower">
               <span>Click </span>
-              <span className="residents-here-button"> here </span>
+              <a
+                href="https://feverdream.slideroom.com/#/Login"
+                className="residents-here-button"
+              >
+                {" "}
+                here{" "}
+              </a>
               <span>to become our</span> <br />
-              <span>first resident!</span>
+              <span>next resident!</span>
             </nav>
           </nav>
         </nav>

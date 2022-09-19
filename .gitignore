@@ -20,6 +20,6 @@ pnpm-debug.log*
 .DS_Store
 
 .vscode
-src/videos/FINALFEVER.mp4
 .vercel
-mvp.txt
+src/videos/FINALFEVER.mp4
+TODO.txt

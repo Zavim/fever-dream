@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import triButtonUp from "/images/tri-button-up.png";
-import triButtonDown from "/images/tri-button-down.png";
-import triButtonUpGreen from "/images/tri-button-up-green.png";
-import triButtonDownGreen from "/images/tri-button-down-green.png";
+import triButtonUp from "/images/tri-button-up-green.png";
+import triButtonDown from "/images/tri-button-down-green.png";
+// import triButtonUpGreen from "/images/tri-button-up-green.png";
+// import triButtonDownGreen from "/images/tri-button-down-green.png";
 
 export default function Collapsible(props) {
   const { question, answer, triType } = props;
@@ -18,7 +18,7 @@ export default function Collapsible(props) {
         {question}
         <img
           className="dropdown-button"
-          src={open ? triButtonUpGreen : triButtonDownGreen}
+          src={open ? triButtonUp : triButtonDown}
           alt="triangular button"
         ></img>
       </nav>

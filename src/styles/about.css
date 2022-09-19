@@ -207,6 +207,7 @@ img {
 .dropdown-button {
   width: 1rem;
   border: none;
+  filter: hue-rotate(50deg);
 }
 
 .board-title {
