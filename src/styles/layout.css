@@ -121,7 +121,7 @@ a {
   font-family: "vulf mono black italic";
   border: none;
   position: fixed;
-  z-index: 3;
+  z-index: 4;
   bottom: 2rem;
   right: 2rem;
 }
