@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import triButtonUp from "/images/tri-button-up-green.png";
-import triButtonDown from "/images/tri-button-down-green.png";
-// import triButtonUpGreen from "/images/tri-button-up-green.png";
-// import triButtonDownGreen from "/images/tri-button-down-green.png";
 
 export default function Collapsible(props) {
-  const { question, answer, triType } = props;
+  const { question, answer, triButtonUp, triButtonDown } = props;
   const [open, setOpen] = useState(false);
 
   const toggle = (open) => {

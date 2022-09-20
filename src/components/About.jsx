@@ -7,6 +7,9 @@ import erin from "/images/erin.jpg";
 import johnPaul from "/images/johnPaul.jpg";
 import maxmillian from "/images/maxmillian.jpg";
 
+import triButtonUp from "/images/tri-button-up.png";
+import triButtonDown from "/images/tri-button-down.png";
+
 import Collapsible from "./Collapsible";
 import LaxAnimController from "./LaxAnimController";
 
@@ -28,12 +31,7 @@ export default function About() {
           </nav>
           <img src={mission} alt="AI generated image of"></img>
         </nav>
-        {/* <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <line x1="10%" y1="10%" x2="90%" y2="10%" stroke="black" />
-        </svg> */}
-        {/* <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-          <rect width="90%" height="1%" />
-        </svg> */}
+        <hr className="border" />
       </div>
       <div className="container">
         <nav className="vision-container" id="vision">
@@ -66,6 +64,8 @@ export default function About() {
                     practices.
                   </p>
                 }
+                triButtonUp={triButtonUp}
+                triButtonDown={triButtonDown}
               />
               <Collapsible
                 question={<h3>collaboration</h3>}
@@ -75,6 +75,8 @@ export default function About() {
                     others to achieve a common goal.
                   </p>
                 }
+                triButtonUp={triButtonUp}
+                triButtonDown={triButtonDown}
               />
               <Collapsible
                 question={<h3>learning</h3>}
@@ -85,6 +87,8 @@ export default function About() {
                     models.
                   </p>
                 }
+                triButtonUp={triButtonUp}
+                triButtonDown={triButtonDown}
               />
               <Collapsible
                 question={<h3>community</h3>}
@@ -94,6 +98,8 @@ export default function About() {
                     members closer together and supporting them.{" "}
                   </p>
                 }
+                triButtonUp={triButtonUp}
+                triButtonDown={triButtonDown}
               />
             </nav>
           </nav>

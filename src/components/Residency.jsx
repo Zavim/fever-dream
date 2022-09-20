@@ -4,6 +4,9 @@ import residents from "/images/residents.jpg";
 import about from "/images/about.jpg";
 import facilities from "/images/facilities.jpg";
 
+import triButtonUp from "/images/tri-button-up-green.png";
+import triButtonDown from "/images/tri-button-down-green.png";
+
 import Collapsible from "./Collapsible";
 import LaxAnimController from "./LaxAnimController";
 import Curtain from "./Curtain";
@@ -171,6 +174,8 @@ export default function Residency() {
             <Collapsible
               question={<p>Why is the program called feverdream?</p>}
               answer={<p>😏</p>}
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>Who is eligible to apply?</p>}
@@ -185,6 +190,8 @@ export default function Residency() {
                   their proposal.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={
@@ -200,6 +207,8 @@ export default function Residency() {
                   vaccinated.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>I'm still in school. Can I apply?</p>}
@@ -209,10 +218,14 @@ export default function Residency() {
                   graduated from undergrad by the start of their residency term.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>How do I apply?</p>}
               answer={<p>The feverdream application can be found [here].</p>}
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>How often can I apply?</p>}
@@ -222,6 +235,8 @@ export default function Residency() {
                   selected you are no longer allowed to apply.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={
@@ -238,6 +253,8 @@ export default function Residency() {
                   session go live.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={
@@ -251,6 +268,8 @@ export default function Residency() {
                   professional manner.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>What is the cost of the residency?</p>}
@@ -261,16 +280,22 @@ export default function Residency() {
                   is waivable if you are in need of financial assistance.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>How long is the residency?</p>}
               answer={<p>The residency is 2 months long.</p>}
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={
                 <p>How much is the stipend provided for the artist resident?</p>
               }
               answer={<p>The stipend provided by feverdream is $3000.</p>}
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>Are supplies provided?</p>}
@@ -282,6 +307,8 @@ export default function Residency() {
                   up to $800.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>Can I have guests in the studio?</p>}
@@ -291,6 +318,8 @@ export default function Residency() {
                   provide formal artist's studio visits.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={
@@ -303,6 +332,8 @@ export default function Residency() {
                   establishments can be found [here.]
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={
@@ -317,6 +348,8 @@ export default function Residency() {
                   start if you are the selected resident.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={<p>Who reviews my application?</p>}
@@ -327,6 +360,8 @@ export default function Residency() {
                   Guido, and John Paul Costello.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={
@@ -344,6 +379,8 @@ export default function Residency() {
                   professional manner.
                 </p>
               }
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
             <Collapsible
               question={
@@ -353,6 +390,8 @@ export default function Residency() {
                 </p>
               }
               answer={<p>Yes, you can apply for the next season.</p>}
+              triButtonUp={triButtonUp}
+              triButtonDown={triButtonDown}
             />
           </nav>
         </nav>
