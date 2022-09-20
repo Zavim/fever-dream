@@ -95,7 +95,7 @@ a {
   flex-direction: column;
   padding: 1rem;
   height: auto;
-  /* max-width: 25vw; */
+  width: 15%;
   max-height: 9999px;
   text-align: center;
   transform: translateY(0.3125rem);

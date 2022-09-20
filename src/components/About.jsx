@@ -28,6 +28,12 @@ export default function About() {
           </nav>
           <img src={mission} alt="AI generated image of"></img>
         </nav>
+        {/* <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <line x1="10%" y1="10%" x2="90%" y2="10%" stroke="black" />
+        </svg> */}
+        {/* <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+          <rect width="90%" height="1%" />
+        </svg> */}
       </div>
       <div className="container">
         <nav className="vision-container" id="vision">

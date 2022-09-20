@@ -120,6 +120,12 @@ img {
   padding-bottom: 1em;
 }
 
+.border {
+  border: #d4dede;
+  border-width: 6px;
+  width: 100%;
+}
+
 .vision-container {
   display: flex;
   align-items: center;
@@ -213,7 +219,7 @@ img {
 .board-title {
   margin-top: 0;
   padding-left: 17vw;
-  transform: translateY(10rem);
+  transform: translateY(1rem);
 }
 
 .board-container {
@@ -230,7 +236,7 @@ img {
   align-items: center;
   justify-content: space-between;
   min-height: max-content;
-  padding: 11rem 0 20rem;
+  padding: 2rem 0 20rem;
 }
 
 .board-container > h2 {
