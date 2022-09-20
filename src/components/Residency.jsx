@@ -101,16 +101,9 @@ export default function Residency() {
                   </li>
                   <li>
                     As an applicant you should be aware we require the following
-                    information within the application:{" "}
-                    <ul>
-                      <li>Personal Details</li>
-                      <li>Contact Info</li>
-                      <li>Educational Background</li>
-                      <li>Resume/CV</li>
-                      <li>Slideshow of 8 - 12 Works</li>
-                      <li>Statement</li>
-                      <li>Proposal</li>
-                    </ul>
+                    information within the application: <br /> <br /> Personal
+                    Details, Contact Info, Educational Background, Resume/CV,
+                    Slideshow of 8 - 12 Works, Statement, and Proposal
                   </li>
                 </ul>
               }

@@ -91,7 +91,7 @@ img {
     180deg,
     #ffffff 0%,
     #ffffffcc 17.71%,
-    #ffffffcc 80.73%,
+    #ffffffcc 95%,
     rgba(255, 255, 255, 0) 100%
   );
   background-blend-mode: soft-light;
@@ -219,15 +219,15 @@ img {
 
 .board-title {
   margin-top: 0;
-  padding-left: 17vw;
-  transform: translateY(1rem);
+  padding: 1rem 0 0 6.67%;
+  width: 100%;
 }
 
 .board-container {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
-    #ffffffcc 6.77%,
+    #ffffffcc 2%,
     #ffffffcc 93.23%,
     rgba(255, 255, 255, 0) 100%
   );
@@ -258,7 +258,7 @@ img {
 }
 
 .board-bio-image-container > img {
-  max-width: 90%;
+  max-width: 86.66%;
   max-height: 50%;
   margin-bottom: 2.0625rem;
   border: 0.75rem solid #d4dede;
@@ -350,6 +350,9 @@ footer {
   }
   .board-container {
     padding-left: 15%;
+  }
+  .board-title {
+    padding-left: 2vw;
   }
   .board-bio {
     margin-bottom: 0;

@@ -106,8 +106,8 @@ export default function About() {
         </nav>
       </div>
       <div className="container">
-        <h2 className="board-title">board</h2>
         <nav className="board-container" id="board">
+          <h2 className="board-title">board</h2>
           <nav className="board-bio" id="jesse-board-bio">
             <nav className="board-bio-image-container">
               <img src={jesse} alt="placeholder" />
