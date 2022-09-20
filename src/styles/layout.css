@@ -124,7 +124,7 @@ a {
   z-index: 3;
   -webkit-transform: translate3d(0, 0, 1px);
   transform: translate3d(0, 0, 1px);
-  text-decoration: none;
+  color: #000000;
   bottom: 2rem;
   right: 2rem;
 }
