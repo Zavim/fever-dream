@@ -2,6 +2,22 @@ import React from "react";
 import support from "/images/support.png";
 
 export default function Support() {
+  // const $form = $("form#contact-form"),
+  //   url =
+  //     "https://script.google.com/macros/s/AKfycbyqGigWGpmqBZxbyn9U3zo6WKJQn6bZiPhtUeGXMG9MiLNLdLUKrSXBbxUlmdSPoV2D_A/exec";
+
+  // $("#submit-form").on("click", function (e) {
+  //   e.preventDefault();
+  //   const jqxhr = $.ajax({
+  //     url: url,
+  //     method: "GET",
+  //     dataType: "json",
+  //     data: $form.serializeObject(),
+  //   }).success(
+  //     // do something
+  //     console.log("submitted")
+  //   );
+  // });
   return (
     <>
       <nav className="container">
@@ -20,7 +36,7 @@ export default function Support() {
                 <strong> hello@feverdream.co</strong>
               </span>
             </p>
-            <form action="" className="contact-form">
+            <form action="" className="contact-form" id="contact-form">
               <div>
                 <label>
                   First Name <span className="asterisk">*</span>
@@ -32,16 +48,19 @@ export default function Support() {
                 <label>
                   Last Name <span className="asterisk">*</span>
                   <br />
-                  <input type="text" />
+                  <input type="text" name="last-name" />
                 </label>
               </div>
               <div>
                 <label>
                   Email <span className="asterisk">*</span>
                   <br />
-                  <input type="text" email="email" />
+                  <input type="text" name="email" />
                 </label>
               </div>
+              <button className="" id="submit-form" type="submit">
+                Submit
+              </button>
             </form>
           </nav>
           <nav className="contact-img-container">

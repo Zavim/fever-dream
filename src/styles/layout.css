@@ -95,7 +95,7 @@ a {
   flex-direction: column;
   padding: 1rem;
   height: auto;
-  width: 15%;
+  width: 40%;
   max-height: 9999px;
   text-align: center;
   transform: translateY(0.3125rem);
@@ -230,6 +230,9 @@ footer {
   }
   .navbar > .hamburger-dropdown {
     display: none;
+  }
+  .content.open {
+    width: 15%;
   }
   footer {
     flex-direction: row;

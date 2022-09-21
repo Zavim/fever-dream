@@ -31,12 +31,11 @@ export default function About() {
           </nav>
           <img src={mission} alt="AI generated image of"></img>
         </nav>
-        <hr className="border" />
       </div>
       <div className="container">
         <nav className="vision-container" id="vision">
           <nav className="vision-container-text">
-            <h2>vision</h2>
+            <h2 className="vision-header">vision</h2>
             <nav className="vision-container-text--split">
               <img src={vision} alt="placeholder" />
               <p>
@@ -107,7 +106,7 @@ export default function About() {
       </div>
       <div className="container">
         <nav className="board-container" id="board">
-          <h2 className="board-title">board</h2>
+          <h2 className="board-header">board</h2>
           <nav className="board-bio" id="jesse-board-bio">
             <nav className="board-bio-image-container">
               <img src={jesse} alt="placeholder" />
