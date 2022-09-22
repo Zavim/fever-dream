@@ -34,7 +34,25 @@ a {
   font-family: "vulf mono black italic";
   display: flex;
   align-items: center;
-  padding: min(1.875rem 0.625rem, 2rem);
+  justify-content: flex-start;
+  height: 7.5rem;
+  background: linear-gradient(
+    #ffffff 0%,
+    #ffffff 85%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.fake-navbar {
+  z-index: 3;
+  position: sticky;
+  top: 0;
+  font-family: "vulf mono black italic";
+  display: flex;
+  align-items: center;
   justify-content: flex-start;
   height: 7.5rem;
   background: linear-gradient(
@@ -61,6 +79,11 @@ a {
 }
 
 .navbar > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.fake-navbar > a {
   text-decoration: none;
   color: #000000;
 }
@@ -229,6 +252,18 @@ footer {
     display: block;
   }
   .navbar > .hamburger-dropdown {
+    display: none;
+  }
+  .fake-navbar {
+    justify-content: space-evenly;
+  }
+  .fake-navbar > .dropdown {
+    display: block;
+  }
+  .fake-navbar > a > .navbar-support {
+    display: block;
+  }
+  .fake-navbar > .hamburger-dropdown {
     display: none;
   }
   .content.open {

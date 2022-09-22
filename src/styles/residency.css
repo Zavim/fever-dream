@@ -189,7 +189,7 @@ img {
 .residents-container {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-evenly;
   background: linear-gradient(
     180deg,

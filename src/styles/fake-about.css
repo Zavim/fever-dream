@@ -32,6 +32,7 @@
 }
 
 main {
+  padding-top: 42.7rem;
   background-image: url("../../backgrounds/seamless_blue.png");
   margin-inline: auto;
 }
@@ -40,11 +41,11 @@ main {
   text-decoration: underline #b5bfbf;
 }
 
-.navbar > a :hover {
+.fake-navbar > a :hover {
   text-decoration: underline #b5bfbf;
 }
 
-.navbar-about,
+.fake-navbar-about,
 .hamburger-dropdown > .dropdown > .label > button {
   color: #b5bfbf;
 }
@@ -181,13 +182,7 @@ img {
 .vision-header {
   text-align: right;
   padding-right: 6.7%;
-  background: linear-gradient(
-    to right,
-    #61959d 0%,
-    rgba(0, 0, 0, 0) 82%,
-    rgba(0, 0, 0, 0) 94%,
-    #61959d 100%
-  );
+  background: linear-gradient(to right, #61959d 0%, rgba(0, 0, 0, 0) 75%);
 }
 
 .vision-container-text > h3 {
@@ -250,13 +245,7 @@ img {
   margin-top: 1rem;
   margin-bottom: 6.67%;
   width: 100%;
-  background: linear-gradient(
-    to right,
-    #61959d 0%,
-    rgba(0, 0, 0, 0) 14%,
-    rgba(0, 0, 0, 0) 30%,
-    #61959d 100%
-  );
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 25%, #61959d 100%);
 }
 
 .board-container {
@@ -388,15 +377,15 @@ footer {
     width: 50%;
     padding: 1em 6.7% 0 6.7%;
   }
-  /* .board-container {
+  .board-container {
     padding-left: 15%;
-  } */
+  }
   .board-header {
-    padding-left: 17vw;
+    padding-left: 2vw;
   }
   .board-bio {
     margin-bottom: 0;
-    padding-left: 15vw;
+    /* position: sticky; */
     top: 8rem;
   }
   .board-container > .board-bio {
