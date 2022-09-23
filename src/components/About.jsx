@@ -11,6 +11,7 @@ import triButtonUp from "/images/tri-button-up.png";
 import triButtonDown from "/images/tri-button-down.png";
 
 import Collapsible from "./Collapsible";
+import Curtain from "./Curtain";
 import LaxAnimController from "./LaxAnimController";
 
 export default function About() {
@@ -31,6 +32,7 @@ export default function About() {
           </nav>
           <img src={mission} alt="AI generated image of"></img>
         </nav>
+        <hr className="border" />
       </div>
       <div className="container">
         <nav className="vision-container" id="vision">
@@ -38,72 +40,80 @@ export default function About() {
             <h2 className="vision-header">vision</h2>
             <nav className="vision-container-text--split">
               <img src={vision} alt="placeholder" />
-              <p>
-                feverdream’s vision is to fill a niche within the artistic
-                community of Cleveland as an experimental space for artists to
-                thrive and grow, celebrating the following values: creative
-                development, collaboration, learning, and community. At the
-                heart of this vision lies the feverdream Residency program which
-                offers artists time, space, and funds to pursue the work they’re
-                passionate about. The program is particularly geared towards
-                young, emerging 2D artists within the scope of painting and
-                drawing. Resident artists’ practices will thrive within the
-                feverdream. And their admittance into the program in addition to
-                their contributions to feverdream's ongoing projects will key
-                them into a network of artists for a lifetime.
-              </p>
-            </nav>
-            <nav className="collapsibles-container">
-              <Collapsible
-                question={<h3>creative development</h3>}
-                answer={
-                  <p>
-                    Providing the tools for career and research mobility to
-                    emerging artists as well as celebrating their artistic
-                    practices.
-                  </p>
-                }
-                triButtonUp={triButtonUp}
-                triButtonDown={triButtonDown}
-              />
-              <Collapsible
-                question={<h3>collaboration</h3>}
-                answer={
-                  <p>
-                    Passionately listening to, working with, and supporting
-                    others to achieve a common goal.
-                  </p>
-                }
-                triButtonUp={triButtonUp}
-                triButtonDown={triButtonDown}
-              />
-              <Collapsible
-                question={<h3>learning</h3>}
-                answer={
-                  <p>
-                    Remaining open-minded for the sake of positive growth to
-                    better serve artists. Experimenting with new ideas and
-                    models.
-                  </p>
-                }
-                triButtonUp={triButtonUp}
-                triButtonDown={triButtonDown}
-              />
-              <Collapsible
-                question={<h3>community</h3>}
-                answer={
-                  <p>
-                    Vitalizing the creative community of Cleveland by bringing
-                    members closer together and supporting them.{" "}
-                  </p>
-                }
-                triButtonUp={triButtonUp}
-                triButtonDown={triButtonDown}
-              />
+              <nav>
+                <p>
+                  feverdream’s vision is to fill a niche within the artistic
+                  community of Cleveland as an experimental space for artists to
+                  thrive and grow, celebrating the following values: creative
+                  development, collaboration, learning, and community. At the
+                  heart of this vision lies the feverdream Residency program
+                  which offers artists time, space, and funds to pursue the work
+                  they’re passionate about creating.
+                </p>
+                <nav className="collapsibles-container">
+                  <Collapsible
+                    question={<h3>creative development</h3>}
+                    answer={
+                      <p>
+                        Providing the tools for career and research mobility to
+                        emerging artists as well as celebrating their artistic
+                        practices.
+                      </p>
+                    }
+                    triButtonUp={triButtonUp}
+                    triButtonDown={triButtonDown}
+                  />
+                  {/* <Curtain
+                    curtain={<h3>creative development</h3>}
+                    curtainContent={
+                      <p>
+                        Providing the tools for career and research mobility to
+                        emerging artists as well as celebrating their artistic
+                        practices.
+                      </p>
+                    }
+                  /> */}
+                  <Collapsible
+                    question={<h3>collaboration</h3>}
+                    answer={
+                      <p>
+                        Passionately listening to, working with, and supporting
+                        others to achieve a common goal.
+                      </p>
+                    }
+                    triButtonUp={triButtonUp}
+                    triButtonDown={triButtonDown}
+                  />
+                  <Collapsible
+                    question={<h3>learning</h3>}
+                    answer={
+                      <p>
+                        Remaining open-minded for the sake of positive growth to
+                        better serve artists. Experimenting with new ideas and
+                        models.
+                      </p>
+                    }
+                    triButtonUp={triButtonUp}
+                    triButtonDown={triButtonDown}
+                  />
+                  <Collapsible
+                    question={<h3>community</h3>}
+                    answer={
+                      <p>
+                        Vitalizing the creative community of Cleveland by
+                        bringing members closer together and supporting them.{" "}
+                      </p>
+                    }
+                    triButtonUp={triButtonUp}
+                    triButtonDown={triButtonDown}
+                  />
+                </nav>
+              </nav>
             </nav>
           </nav>
         </nav>
       </div>
+      <hr className="border" />
       <div className="container">
         <nav className="board-container" id="board">
           <h2 className="board-header">board</h2>

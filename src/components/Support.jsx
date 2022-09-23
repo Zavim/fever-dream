@@ -36,7 +36,7 @@ export default function Support() {
                 <strong> hello@feverdream.co</strong>
               </span>
             </p>
-            <form action="" className="contact-form" id="contact-form">
+            {/* <form action="" className="contact-form" id="contact-form">
               <div>
                 <label>
                   First Name <span className="asterisk">*</span>
@@ -61,7 +61,7 @@ export default function Support() {
               <button className="" id="submit-form" type="submit">
                 Submit
               </button>
-            </form>
+            </form> */}
           </nav>
           <nav className="contact-img-container">
             <img src={support} alt="placeholder"></img>

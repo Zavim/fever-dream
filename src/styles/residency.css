@@ -150,6 +150,16 @@ img {
   padding: 0 6.7% 0;
 }
 
+.about-container-text > h2 {
+  background: linear-gradient(
+    to right,
+    #98b166 0%,
+    rgba(0, 0, 0, 0) 14%,
+    rgba(0, 0, 0, 0) 30%,
+    #98b166 100%
+  );
+}
+
 .about-container-text > a {
   color: #000000;
   font-family: "vulf sans regular";
