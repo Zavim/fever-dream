@@ -5,7 +5,7 @@ export default function FakeNavbarDrop() {
   return (
     <>
       <nav className="fake-navbar">
-        <nav className="hamburger-dropdown">
+        <nav className="fake-hamburger-dropdown">
           <Dropdown
             label={
               <button>

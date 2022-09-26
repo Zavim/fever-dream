@@ -448,6 +448,9 @@ footer {
   .vision-container-text--split > nav {
     padding-right: 6.7%;
   }
+  .vision-container-text--split > nav > p {
+    padding: 0;
+  }
   .vision-container-text > .vision-container-text--split > img {
     position: relative;
     /* margin-top: 7rem; */
