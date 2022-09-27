@@ -147,7 +147,7 @@ img {
 }
 
 .border::before {
-  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+  content: "feverdreamfeverdreamfeverdreamfeverdream";
   font-family: "vulf mono bold italic";
   color: #ffffff;
   opacity: 50%;
