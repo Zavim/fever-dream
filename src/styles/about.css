@@ -147,7 +147,7 @@ img {
 }
 
 .border::before {
-  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
   font-family: "vulf mono bold italic";
   color: #ffffff;
   opacity: 50%;
@@ -496,13 +496,13 @@ footer {
   .haiku {
     margin-bottom: 0;
   }
-}
-.border::before {
-  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
-  font-family: "vulf mono bold italic";
-  color: #ffffff;
-  opacity: 50%;
-  font-size: 1rem;
+  .border::before {
+    content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+    font-family: "vulf mono bold italic";
+    color: #ffffff;
+    opacity: 50%;
+    font-size: 1rem;
+  }
 }
 /* @media (min-width: 86em) {
   .haiku-container {
