@@ -15,8 +15,8 @@ export default function Residency() {
   return (
     <>
       <LaxAnimController />
-      <nav className="container">
-        <nav className="goal-container" id="goal">
+      <nav className="container" id="goal">
+        <nav className="goal-container">
           <img src={goal} alt="placeholder"></img>
           <nav className="goal-container-text">
             <h2>goal</h2>
@@ -28,8 +28,9 @@ export default function Residency() {
           </nav>
         </nav>
       </nav>
-      <nav className="container">
-        <nav className="about-container" id="about">
+      <hr className="border" />
+      <nav className="container" id="about">
+        <nav className="about-container">
           <nav className="about-container-text">
             <h2>about</h2>
             <Curtain
@@ -112,8 +113,9 @@ export default function Residency() {
           <img src={about} alt="placeholder" />
         </nav>
       </nav>
-      <nav className="container">
-        <nav className="facilities-container" id="facilities">
+      <hr className="border" />
+      <nav className="container" id="facilities">
+        <nav className="facilities-container">
           <img src={facilities} alt="placeholder" />
           <nav className="facilities-container-text">
             <h2>facilities</h2>
@@ -127,8 +129,9 @@ export default function Residency() {
           </nav>
         </nav>
       </nav>
-      <nav className="container">
-        <nav className="residents-container" id="residents">
+      <hr className="border" />
+      <nav className="container" id="residents">
+        <nav className="residents-container">
           <img src={residents} alt="placeholder" />
           <nav className="residents-container-text">
             <h2>residents</h2>
@@ -160,8 +163,9 @@ export default function Residency() {
           </nav>
         </nav>
       </nav>
-      <nav className="container">
-        <nav className="faq-container" id="faq">
+      <hr className="faq-border" />
+      <nav className="container" id="faq">
+        <nav className="faq-container">
           <nav className="faq-container-text">
             <h2>frequently asked questions</h2>
             <Collapsible

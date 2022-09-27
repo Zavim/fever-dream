@@ -33,6 +33,24 @@
   font-display: swap;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 * {
   margin: 0px;
 }
@@ -108,7 +126,7 @@ img {
   background-blend-mode: soft-light;
   min-height: max-content;
   padding-top: 8.625rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   background: linear-gradient(180deg, white, rgba(255, 255, 255, 0) 15%);
   background-blend-mode: soft-light;
 }
@@ -120,6 +138,50 @@ img {
 
 .goal-container-text {
   max-width: 100%;
+}
+
+.border {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 1.5rem;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    #aec48e 25%,
+    #aec48e 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.border::before {
+  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+  font-family: "vulf mono bold italic";
+  /* position: absolute; */
+  color: #ffffff;
+  opacity: 50%;
+  font-size: 1rem;
+}
+
+.faq-border {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 1.5rem;
+  background: #aec48e;
+}
+
+.faq-border::before {
+  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+  font-family: "vulf mono bold italic";
+  /* position: absolute; */
+  color: #ffffff;
+  opacity: 50%;
+  font-size: 1rem;
 }
 
 .about-container {
@@ -140,24 +202,14 @@ img {
 }
 
 .about-container > img {
-  margin-top: 5.313rem;
   max-width: 90%;
 }
 
 .about-container-text {
-  height: 34rem;
+  height: 100%;
+  width: 100%;
   font-size: 1.5rem;
-  padding: 0 6.7% 0;
-}
-
-.about-container-text > h2 {
-  background: linear-gradient(
-    to right,
-    #98b166 0%,
-    rgba(0, 0, 0, 0) 14%,
-    rgba(0, 0, 0, 0) 30%,
-    #98b166 100%
-  );
+  padding: 0 6.7% 2rem;
 }
 
 .about-container-text > a {
@@ -180,6 +232,7 @@ img {
   align-items: center;
   justify-content: space-evenly;
   min-height: max-content;
+  padding: 3rem 0;
   /* padding-left: 4.125rem;
   padding-right: 11.875rem; */
 }
@@ -218,11 +271,11 @@ img {
   min-height: max-content;
   /* padding-left: 4.125rem;
   padding-right: 11.875rem; */
-  padding: 4rem 0 9rem;
+  padding-bottom: 9rem;
 }
 
 .residents-container > img {
-  margin-top: 5.313rem;
+  margin-top: 4rem;
   max-width: 90%;
 }
 
@@ -272,7 +325,9 @@ img {
 .answer {
   background: #aec48e;
   max-height: 0;
+  margin-top: 1rem;
   overflow: hidden;
+  animation: fadeOut ease-out 1s;
   transition: all 0.25s cubic-bezier(0, 1, 0, 1);
 }
 
@@ -284,6 +339,7 @@ img {
 .answer.open {
   background: #aec48e;
   height: auto;
+  margin-top: 1rem;
   max-height: 9999px;
   animation: fadeIn ease-out 1s;
   transition: all 0.25s cubic-bezier(1, 0, 1, 0);
@@ -291,24 +347,6 @@ img {
 
 .answer.open > ul {
   padding: 1em 1.5em;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 .curtain {
@@ -324,6 +362,10 @@ img {
   /* position: absolute; */
 }
 
+.curtain-text > p:hover {
+  color: #aec48e;
+}
+
 .curtain-content {
   background: #aec48e;
   /* height: 0; */
@@ -331,7 +373,7 @@ img {
   /* position: relative; */
   display: none;
   overflow: hidden;
-  animation: fadeOut ease-out 2s;
+  animation: fadeOut ease-out 1s;
   /* animation-duration: 0.5s;
   animation-fill-mode: backwards; */
   /* transition: all 0.25s cubic-bezier(0, 1, 0, 1); */
@@ -417,11 +459,16 @@ footer {
     flex-basis: 100%;
   }
   .about-container > img {
+    /* margin-top: 5.313rem; */
     margin-right: 4%;
     max-width: 33%;
   }
   .about-container-text {
+    height: 40vw;
     padding: 0 5% 0 12.6%;
+  }
+  .curtain-content.open {
+    max-width: 80%;
   }
   .facilities-container {
     flex-direction: row;

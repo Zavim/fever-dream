@@ -26,14 +26,17 @@ export default function Support() {
             <h2>contact</h2>
             <p>
               Keep up to date with <br />
-              feverdream by filling out
+              feverdream by sending us
               <br />
-              the simple contact form <br /> below to join our email list.{" "}
+              an email <br /> to join our email list. <br />
               <br />
-              <br />
-              For assistance please email <br />
-              <span className="email">
-                <strong> hello@feverdream.co</strong>
+              <span>
+                <a
+                  href="mailto:hello@feverdream.co?subject=feverdream%20artist%20inquiry&body=First%20Name%0ALast%20Name%0AYour message here%21"
+                  className="email"
+                >
+                  <strong>hello@feverdream.co</strong>
+                </a>
               </span>
             </p>
             {/* <form action="" className="contact-form" id="contact-form">

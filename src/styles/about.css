@@ -106,7 +106,7 @@ img {
   background-blend-mode: soft-light;
   min-height: max-content;
   padding-top: 5.375rem;
-  padding-bottom: 2.875rem;
+  padding-bottom: 4rem;
 }
 
 .mission-container-text {
@@ -134,18 +134,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* box-shadow: 0 0.25rem 0.25rem -1rem rgba(0, 0, 0, 0.25); */
   border: none;
   height: 1.5rem;
-  /* background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0) 0%,
-    #c3d1d1 25%,
-    #c3d1d1 75%,
-    rgba(0, 0, 0, 0) 100%
-  ); */
-  /* width: 80vw; */
-  /* margin-top: 3%; */
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0) 0%,
@@ -153,12 +143,12 @@ img {
     #61959d 75%,
     rgba(0, 0, 0, 0) 100%
   );
+  opacity: 90%;
 }
 
 .border::before {
   content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
   font-family: "vulf mono bold italic";
-  /* position: absolute; */
   color: #ffffff;
   opacity: 50%;
   font-size: 1rem;
@@ -176,7 +166,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   min-height: max-content;
-  /* padding-bottom: 2.75rem;  */
+  padding-bottom: 1rem;
 }
 
 .vision-container-text > .vision-container-text--split > img {

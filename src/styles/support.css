@@ -93,7 +93,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 6.67% 0;
+  padding: 0 6.67% 2rem;
   width: 100%;
 }
 
@@ -156,7 +156,7 @@ footer {
     align-items: flex-start;
   }
   .contact-img-container > img {
-    max-width: 80%;
+    max-width: 70%;
   }
   input {
     width: 26.56rem;
