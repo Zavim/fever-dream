@@ -97,12 +97,34 @@ p {
   width: 100%;
 }
 
-.contact-form {
+.contact-container-text > p {
+  padding-bottom: 1rem;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  padding-left: 25%;
+}
+
+.social-icon {
+  border: none;
+  width: 2rem;
+  margin: 0 0.5rem;
+}
+
+.social-icon:hover {
+  transition: all 0.25s cubic-bezier(0, 1, 0, 1);
+  transform: translateY(-0.3125rem);
+}
+
+/* .contact-form {
   z-index: 1;
   padding-top: 0.9375rem;
   padding-bottom: 3rem;
   width: 80%;
-}
+} */
 
 .email {
   color: #e6bcb8;

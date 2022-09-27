@@ -144,7 +144,6 @@ img {
     #61959d 75%,
     rgba(0, 0, 0, 0) 100%
   );
-  opacity: 90%;
 }
 
 .border::before {
@@ -180,7 +179,7 @@ img {
 
 .vision-container-text {
   text-align: right;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .vision-container-text--split {
@@ -199,8 +198,6 @@ img {
 
 .curtain-text {
   font-family: "vulf mono bold italic";
-  display: flex;
-  align-items: center;
   /* position: absolute; */
 }
 
@@ -413,10 +410,6 @@ footer {
 }
 
 @media (min-width: 50em) {
-  .border {
-    display: flex;
-    /* position: absolute; */
-  }
   h2 {
     font-size: 3rem;
   }
@@ -463,12 +456,13 @@ footer {
   }
   .collapsibles-container {
     position: relative;
-    padding-top: 2rem;
     left: 6%;
+    height: 40vh;
+    padding: 2em 0 0 6.7%;
   }
-  /* .board-container {
-    padding-left: 15%;
-  } */
+  .curtain-content.open {
+    margin-right: 6.7%;
+  }
   .board-header {
     padding-left: 17vw;
   }

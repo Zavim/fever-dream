@@ -32,7 +32,6 @@ export default function About() {
           </nav>
           <img src={mission} alt="AI generated image of"></img>
         </nav>
-        {/* <hr className="border" /> */}
         <nav className="border"></nav>
       </div>
       <div className="container">
@@ -52,19 +51,7 @@ export default function About() {
                   they’re passionate about creating.
                 </p>
                 <nav className="collapsibles-container">
-                  <Collapsible
-                    question={<h3>creative development</h3>}
-                    answer={
-                      <p>
-                        Providing the tools for career and research mobility to
-                        emerging artists as well as celebrating their artistic
-                        practices.
-                      </p>
-                    }
-                    triButtonUp={triButtonUp}
-                    triButtonDown={triButtonDown}
-                  />
-                  {/* <Curtain
+                  <Curtain
                     curtain={<h3>creative development</h3>}
                     curtainContent={
                       <p>
@@ -73,8 +60,36 @@ export default function About() {
                         practices.
                       </p>
                     }
-                  /> */}
-                  <Collapsible
+                  />
+                  <Curtain
+                    curtain={<h3>collaboration</h3>}
+                    curtainContent={
+                      <p>
+                        Passionately listening to, working with, and supporting
+                        others to achieve a common goal.
+                      </p>
+                    }
+                  />
+                  <Curtain
+                    curtain={<h3>learning</h3>}
+                    curtainContent={
+                      <p>
+                        Remaining open-minded for the sake of positive growth to
+                        better serve artists. Experimenting with new ideas and
+                        models.
+                      </p>
+                    }
+                  />
+                  <Curtain
+                    curtain={<h3>community</h3>}
+                    curtainContent={
+                      <p>
+                        Vitalizing the creative community of Cleveland by
+                        bringing members closer together and supporting them.{" "}
+                      </p>
+                    }
+                  />
+                  {/* <Collapsible
                     question={<h3>collaboration</h3>}
                     answer={
                       <p>
@@ -107,14 +122,14 @@ export default function About() {
                     }
                     triButtonUp={triButtonUp}
                     triButtonDown={triButtonDown}
-                  />
+                  /> */}
                 </nav>
               </nav>
             </nav>
           </nav>
         </nav>
       </div>
-      <hr className="border" />
+      <nav className="border"></nav>
       <div className="container">
         <nav className="board-container" id="board">
           <h2 className="board-header">board</h2>

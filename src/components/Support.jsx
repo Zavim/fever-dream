@@ -1,6 +1,8 @@
 import React from "react";
 import support from "/images/support.png";
 import instaPink from "/images/logos/insta-pink.png";
+import fbPink from "/images/logos/fb-pink.png";
+import liPink from "/images/logos/li-pink.png";
 
 export default function Support() {
   return (
@@ -14,8 +16,29 @@ export default function Support() {
               There we will announce open calls, residency finalists, and
               updates on our current residents.
               <br />
-              <br />
-              <nav className="socials-container"></nav>
+              <nav className="socials-container">
+                <a href="https://www.instagram.com/feverdream.gallery?igshid=YmMyMTA2M2Y=">
+                  <img
+                    src={instaPink}
+                    alt="instagram logo"
+                    className="social-icon"
+                  />
+                </a>
+                <a href="https://www.facebook.com/feverdreamresidency">
+                  <img
+                    src={fbPink}
+                    alt="facebook logo"
+                    className="social-icon"
+                  />
+                </a>
+                <a href="https://www.linkedin.com/company/feverdream/">
+                  <img
+                    src={liPink}
+                    alt="linkedIn  logo"
+                    className="social-icon"
+                  />
+                </a>
+              </nav>
               For assistance and questions please email
               <a
                 href="mailto:hello@feverdream.co?subject=feverdream%20artist%20inquiry&body=First%20Name%0ALast%20Name%0AYour message here%21"
