@@ -157,7 +157,7 @@ img {
 }
 
 .border::before {
-  content: "feverdreamfeverdreamfeverdreamfeverdream";
+  content: "feverdreamfeverdreamfeverdream";
   font-family: "vulf mono bold italic";
   /* position: absolute; */
   color: #ffffff;
@@ -176,7 +176,7 @@ img {
 }
 
 .faq-border::before {
-  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+  content: "feverdreamfeverdreamfeverdream";
   font-family: "vulf mono bold italic";
   /* position: absolute; */
   color: #ffffff;
@@ -504,6 +504,14 @@ footer {
     padding: 0 11% 0 8%;
   }
   .border::before {
+    content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+    font-family: "vulf mono bold italic";
+    /* position: absolute; */
+    color: #ffffff;
+    opacity: 50%;
+    font-size: 1rem;
+  }
+  .faq-border::before {
     content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
     font-family: "vulf mono bold italic";
     /* position: absolute; */
