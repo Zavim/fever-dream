@@ -25,19 +25,18 @@ export default function Support() {
           <nav className="contact-container-text">
             <h2>contact</h2>
             <p>
-              Keep up to date with <br />
-              feverdream by sending us
+              Keep up to date with feverdream by following us on social media.
+              There we will announce open calls, residency finalists, and
+              updates on our current residents.
               <br />
-              an email <br /> to join our email list. <br />
               <br />
-              <span>
-                <a
-                  href="mailto:hello@feverdream.co?subject=feverdream%20artist%20inquiry&body=First%20Name%0ALast%20Name%0AYour message here%21"
-                  className="email"
-                >
-                  <strong>hello@feverdream.co</strong>
-                </a>
-              </span>
+              For assistance and questions please email
+              <a
+                href="mailto:hello@feverdream.co?subject=feverdream%20artist%20inquiry&body=First%20Name%0ALast%20Name%0AYour message here%21"
+                className="email"
+              >
+                <strong> hello@feverdream.co</strong>
+              </a>
             </p>
             {/* <form action="" className="contact-form" id="contact-form">
               <div>

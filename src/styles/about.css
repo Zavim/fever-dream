@@ -136,6 +136,7 @@ img {
   align-items: center;
   border: none;
   height: 1.5rem;
+  width: 100vw;
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0) 0%,
