@@ -1,23 +1,8 @@
 import React from "react";
 import support from "/images/support.png";
+import instaPink from "/images/logos/.jpg";
 
 export default function Support() {
-  // const $form = $("form#contact-form"),
-  //   url =
-  //     "https://script.google.com/macros/s/AKfycbyqGigWGpmqBZxbyn9U3zo6WKJQn6bZiPhtUeGXMG9MiLNLdLUKrSXBbxUlmdSPoV2D_A/exec";
-
-  // $("#submit-form").on("click", function (e) {
-  //   e.preventDefault();
-  //   const jqxhr = $.ajax({
-  //     url: url,
-  //     method: "GET",
-  //     dataType: "json",
-  //     data: $form.serializeObject(),
-  //   }).success(
-  //     // do something
-  //     console.log("submitted")
-  //   );
-  // });
   return (
     <>
       <nav className="container">

@@ -136,7 +136,6 @@ img {
   align-items: center;
   border: none;
   height: 1.5rem;
-  width: 100vw;
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0) 0%,
@@ -148,7 +147,7 @@ img {
 }
 
 .border::before {
-  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
   font-family: "vulf mono bold italic";
   color: #ffffff;
   opacity: 50%;
@@ -498,7 +497,13 @@ footer {
     margin-bottom: 0;
   }
 }
-
+.border::before {
+  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+  font-family: "vulf mono bold italic";
+  color: #ffffff;
+  opacity: 50%;
+  font-size: 1rem;
+}
 /* @media (min-width: 86em) {
   .haiku-container {
     padding-top: 18%;
