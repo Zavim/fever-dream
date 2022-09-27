@@ -348,6 +348,11 @@ img {
   padding: 1em 1.5em;
 }
 
+.faq-here-link {
+  text-decoration: underline;
+  color: #000000;
+}
+
 .curtain {
   cursor: pointer;
   padding-bottom: 1.25rem;

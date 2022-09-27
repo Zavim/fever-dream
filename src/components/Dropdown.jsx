@@ -24,9 +24,11 @@ export default function Dropdown(props) {
       <nav className="label">{label}</nav>
       <nav className={open ? "content open" : "content"}>
         {content.map((item, i) => (
-          <a href={links[i]} key={i}>
-            {item}
-          </a>
+          <>
+            <a href={links[i]} key={i}>
+              {item}
+            </a>
+          </>
         ))}
       </nav>
     </nav>

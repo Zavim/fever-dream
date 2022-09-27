@@ -107,7 +107,7 @@ img {
   background-blend-mode: soft-light;
   min-height: max-content;
   padding-top: 5.375rem;
-  padding-bottom: 2.875rem;
+  padding-bottom: 4rem;
 }
 
 .mission-container-text {
@@ -157,7 +157,7 @@ img {
 }
 
 .border::before {
-  content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+  content: "feverdreamfeverdreamfeverdream";
 
   font-family: "vulf mono bold italic";
   color: #ffffff;
@@ -177,7 +177,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   min-height: max-content;
-  /* padding-bottom: 2.75rem;  */
+  padding-bottom: 1rem;
 }
 
 .vision-container-text > .vision-container-text--split > img {
@@ -190,7 +190,7 @@ img {
 
 .vision-container-text {
   text-align: right;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .vision-container-text--split {
@@ -307,6 +307,7 @@ img {
 
 .answer.open {
   background: #61959d;
+  color: #ffffff;
   height: auto;
   max-height: 9999px;
   animation: fadeIn ease-out 2s;
@@ -464,6 +465,9 @@ footer {
     padding-top: 2rem;
     left: 6%;
   }
+  .curtain-content.open {
+    margin-right: 6.7%;
+  }
   /* .board-container {
     padding-left: 15%;
   } */
@@ -494,6 +498,13 @@ footer {
   }
   .haiku {
     margin-bottom: 0;
+  }
+  .border::before {
+    content: "feverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdreamfeverdream";
+    font-family: "vulf mono bold italic";
+    color: #ffffff;
+    opacity: 50%;
+    font-size: 1rem;
   }
 }
 

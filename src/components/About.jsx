@@ -89,40 +89,6 @@ export default function About() {
                       </p>
                     }
                   />
-                  {/* <Collapsible
-                    question={<h3>collaboration</h3>}
-                    answer={
-                      <p>
-                        Passionately listening to, working with, and supporting
-                        others to achieve a common goal.
-                      </p>
-                    }
-                    triButtonUp={triButtonUp}
-                    triButtonDown={triButtonDown}
-                  />
-                  <Collapsible
-                    question={<h3>learning</h3>}
-                    answer={
-                      <p>
-                        Remaining open-minded for the sake of positive growth to
-                        better serve artists. Experimenting with new ideas and
-                        models.
-                      </p>
-                    }
-                    triButtonUp={triButtonUp}
-                    triButtonDown={triButtonDown}
-                  />
-                  <Collapsible
-                    question={<h3>community</h3>}
-                    answer={
-                      <p>
-                        Vitalizing the creative community of Cleveland by
-                        bringing members closer together and supporting them.{" "}
-                      </p>
-                    }
-                    triButtonUp={triButtonUp}
-                    triButtonDown={triButtonDown}
-                  /> */}
                 </nav>
               </nav>
             </nav>

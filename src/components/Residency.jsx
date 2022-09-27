@@ -98,7 +98,7 @@ export default function Residency() {
                 <ul>
                   <li>
                     Submit an application to become the next Fever Dream
-                    resident [here]
+                    resident
                   </li>
                   <li>
                     As an applicant you should be aware we require the following
@@ -220,7 +220,19 @@ export default function Residency() {
             />
             <Collapsible
               question={<p>How do I apply?</p>}
-              answer={<p>The feverdream application can be found [here].</p>}
+              answer={
+                <p>
+                  The feverdream application can be found{" "}
+                  <a
+                    href="https://feverdream.slideroom.com/#/Login"
+                    className="faq-here-link"
+                  >
+                    {" "}
+                    here
+                  </a>
+                  .
+                </p>
+              }
               triButtonUp={triButtonUp}
               triButtonDown={triButtonDown}
             />
@@ -325,8 +337,7 @@ export default function Residency() {
               answer={
                 <p>
                   No, feverdream does not provide meals. There are plenty of
-                  dining options in the vicinity. A map of some of those
-                  establishments can be found [here.]
+                  dining options in the vicinity.
                 </p>
               }
               triButtonUp={triButtonUp}
