@@ -109,6 +109,10 @@ p {
   font-family: "vulf sans medium";
 }
 
+.email:hover {
+  color: #e6887f;
+}
+
 .asterisk {
   color: #e6bcb8;
 }

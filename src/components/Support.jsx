@@ -30,6 +30,7 @@ export default function Support() {
               updates on our current residents.
               <br />
               <br />
+              <nav className="socials-container"></nav>
               For assistance and questions please email
               <a
                 href="mailto:hello@feverdream.co?subject=feverdream%20artist%20inquiry&body=First%20Name%0ALast%20Name%0AYour message here%21"
