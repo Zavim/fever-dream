@@ -32,7 +32,8 @@ export default function About() {
           </nav>
           <img src={mission} alt="AI generated image of"></img>
         </nav>
-        <hr className="border" />
+        {/* <hr className="border" /> */}
+        <nav className="border"></nav>
       </div>
       <div className="container">
         <nav className="vision-container" id="vision">
