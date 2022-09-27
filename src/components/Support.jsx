@@ -1,6 +1,6 @@
 import React from "react";
 import support from "/images/support.png";
-import instaPink from "/images/logos/.jpg";
+import instaPink from "/images/logos/insta-pink.jpg";
 
 export default function Support() {
   return (
