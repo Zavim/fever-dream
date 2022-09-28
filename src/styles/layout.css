@@ -177,10 +177,10 @@ a {
 
 .back-to-top-button {
   display: block;
-  width: calc(var(--back-to-top-button-width) / 2);
-  height: calc(var(--back-to-top-button-height) / 2);
-  right: calc(var(--back-to-top-button-right) / 2);
-  bottom: calc(var(--back-to-top-button-bottom) / 2);
+  width: calc(var(--back-to-top-button-width) / 1.5);
+  height: calc(var(--back-to-top-button-height) / 1.5);
+  right: calc(var(--back-to-top-button-right) / 1.75);
+  bottom: calc(var(--back-to-top-button-bottom) / 1.75);
   border-radius: 50%;
   background-color: #ffffff;
   font-family: "vulf mono black italic";
@@ -197,10 +197,10 @@ a {
   display: block;
   position: fixed;
   z-index: 4;
+  width: calc(var(--back-to-top-ring-width) / 1.5);
+  height: calc(var(--back-to-top-ring-height) / 1.5);
   right: calc(var(--back-to-top-ring-right) / 2);
   bottom: calc(var(--back-to-top-ring-bottom) / 2);
-  width: calc(var(--back-to-top-ring-width) / 2);
-  height: calc(var(--back-to-top-ring-height) / 2);
   border: none;
 }
 
