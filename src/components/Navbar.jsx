@@ -4,7 +4,7 @@ import Dropdown from "./Dropdown";
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar">
+      <nav className="home-navbar">
         <nav className="hamburger-dropdown">
           <Dropdown
             label={
@@ -28,16 +28,16 @@ export default function Navbar() {
         </nav>
 
         <a href="/about">
-          <h3 className="navbar-about">about</h3>
+          <h3>about</h3>
         </a>
         <a href="/residency">
-          <h3 className="navbar-residency">residency</h3>
+          <h3>residency</h3>
         </a>
         {/* <a href="/dreamjournal">
           <h3 className="navbar-dreamjournal">dreamjournal</h3>
         </a> */}
         <a href="/support">
-          <h3 className="navbar-support">support</h3>
+          <h3>support</h3>
         </a>
       </nav>
     </>

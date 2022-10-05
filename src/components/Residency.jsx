@@ -190,7 +190,7 @@ export default function Residency() {
               triButtonUp={triButtonUp}
               triButtonDown={triButtonDown}
             />
-            <Collapsible
+            {/* <Collapsible
               question={
                 <p>
                   What is the vaccination policy in regards to incoming
@@ -206,7 +206,7 @@ export default function Residency() {
               }
               triButtonUp={triButtonUp}
               triButtonDown={triButtonDown}
-            />
+            /> */}
             <Collapsible
               question={<p>I'm still in school. Can I apply?</p>}
               answer={

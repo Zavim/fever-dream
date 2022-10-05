@@ -15,8 +15,15 @@ export default function Dropdown(props) {
     }
   };
 
+  const openOnHover = (e) => {
+    if (dropdown.current && !open && dropdown.current.contains(e.target)) {
+      setOpen(true);
+    }
+  };
+
   useEffect(() => {
-    document.addEventListener("mousedown", closeOpenDropdowns);
+    document.addEventListener("mouseout", closeOpenDropdowns);
+    document.addEventListener("mouseover", openOnHover);
   }, []);
 
   return (

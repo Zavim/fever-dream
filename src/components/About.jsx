@@ -19,7 +19,7 @@ export default function About() {
   return (
     <>
       <LaxAnimController />
-      <div className="container">
+      <div className="about-content-container">
         <nav className="mission-container" id="mission">
           <nav className="mission-container-text">
             <h2>

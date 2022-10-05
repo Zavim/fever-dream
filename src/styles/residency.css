@@ -86,8 +86,18 @@ li {
   color: #aec48e;
 }
 
-.content.open {
+/* .content.open {
   background: #aec48e;
+} */
+
+.content.open > a:hover {
+  color: #aec48e;
+}
+
+.content.open > a {
+  font-family: "vulf sans regular";
+  color: #ffffff;
+  padding-bottom: 0.25rem;
 }
 
 h2 {

@@ -53,13 +53,22 @@ main {
   text-decoration: underline #b5bfbf;
 }
 
-.navbar-about,
-.hamburger-dropdown > .dropdown > .label > button {
+.navbar-about {
   color: #b5bfbf;
 }
 
-.content.open {
+/* .content.open {
   background: #b5bfbf;
+} */
+
+.content.open > a:hover {
+  color: #61959d;
+}
+
+.content.open > a {
+  font-family: "vulf sans regular";
+  color: #ffffff;
+  padding-bottom: 0.25rem;
 }
 
 h2 {
@@ -86,7 +95,8 @@ img {
   display: block;
 }
 
-.container {
+.container,
+.about-content-container {
   margin-inline: auto;
   /* width: min(100%, 150rem); */
 }
