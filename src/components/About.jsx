@@ -17,9 +17,9 @@ import LaxAnimController from "./LaxAnimController";
 export default function About() {
   //make this a drop down with focus
   return (
-    <>
+    <nav className="wrapper">
       <LaxAnimController />
-      <div className="about-content-container">
+      <div className="container">
         <nav className="mission-container" id="mission">
           <nav className="mission-container-text">
             <h2>
@@ -32,7 +32,7 @@ export default function About() {
           </nav>
           <img src={mission} alt="AI generated image of"></img>
         </nav>
-        <nav className="border"></nav>
+        <hr className="border"></hr>
       </div>
       <div className="container">
         <nav className="vision-container" id="vision">
@@ -94,8 +94,8 @@ export default function About() {
             </nav>
           </nav>
         </nav>
+        <hr className="border"></hr>
       </div>
-      <nav className="border"></nav>
       <div className="container">
         <nav className="board-container" id="board">
           <h2 className="board-header">board</h2>
@@ -204,6 +204,6 @@ export default function About() {
           </nav>
         </nav>
       </div>
-    </>
+    </nav>
   );
 }

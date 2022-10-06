@@ -381,7 +381,7 @@ img {
 }
 
 .curtain-content {
-  background: #aec48e;
+  /* background: #aec48e; */
   /* height: 0; */
   /* max-height: 0; */
   /* position: relative; */
@@ -401,7 +401,7 @@ img {
 .curtain-content.open {
   display: block;
   /* max-width: 45%; */
-  background: #aec48e;
+  /* background: #aec48e; */
   /* height: auto; */
   max-height: 9999px;
   animation: fadeIn ease-out 2s;

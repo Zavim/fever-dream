@@ -54,8 +54,18 @@ img {
   color: #e6bcb8;
 }
 
-.content.open {
+/* .content.open {
   background: #e6bcb8;
+} */
+
+.content.open > a:hover {
+  color: #ecb7b5;
+}
+
+.content.open > a {
+  font-family: "vulf sans regular";
+  color: #ffffff;
+  padding-bottom: 0.25rem;
 }
 
 .bg {

@@ -126,6 +126,14 @@ a {
   color: #000000;
 } */
 
+.navbar-feverdream {
+  background-image: url("/images/feverdream-nav-bg.png");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #f55093;
+}
+
 .navbar-support {
   display: none;
 }

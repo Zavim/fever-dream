@@ -44,10 +44,6 @@ export default function Residency() {
                   <li>A platform to showcase your work</li>
                   <li>A $3000 stipend </li>
                   <li>An $800 supply stipend</li>
-                  <li>
-                    Admission into a network of artists and creatives in
-                    Cleveland{" "}
-                  </li>
                 </ul>
               }
             />
@@ -122,9 +118,8 @@ export default function Residency() {
             <p>
               feverdream offers a robust studio space located in Tremont
               dedicated to be used by the resident. The space is equipped with
-              plenty of workspace, printers, TVs, a full kitchen, dining and
-              lounge areas, bathrooms, a slop sink, and a beautiful view of
-              downtown Cleveland.{" "}
+              plenty of workspace, printers, TVs, bathrooms, a full kitchen, a
+              slop sink, plus dining and lounge areas.
             </p>
           </nav>
         </nav>
