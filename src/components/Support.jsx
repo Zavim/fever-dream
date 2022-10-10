@@ -77,7 +77,10 @@ export default function Support() {
             </form> */}
           </nav>
           <nav className="contact-img-container">
-            <img src={support} alt="placeholder"></img>
+            <img
+              src={support}
+              alt="AI generated image of a tiger sitting, painting a landscape"
+            ></img>
           </nav>
         </nav>
       </nav>

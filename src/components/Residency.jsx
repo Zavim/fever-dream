@@ -17,7 +17,11 @@ export default function Residency() {
       <LaxAnimController />
       <nav className="container" id="goal">
         <nav className="goal-container">
-          <img src={goal} alt="placeholder"></img>
+          <img
+            src={goal}
+            id="parallax-img"
+            alt="AI generated image of a room containing what appears to be a clock on a chair and stacks of cash on the floor, a door is open to the surreal landscape outside"
+          ></img>
           <nav className="goal-container-text">
             <h2>goal</h2>
             <p>
@@ -106,13 +110,21 @@ export default function Residency() {
               }
             />
           </nav>
-          <img src={about} alt="placeholder" />
+          <img
+            src={about}
+            id="parallax-img"
+            alt="AI generated image of colored absctract painstrokes"
+          />
         </nav>
       </nav>
       <hr className="border" />
       <nav className="container" id="facilities">
         <nav className="facilities-container">
-          <img src={facilities} alt="placeholder" />
+          <img
+            src={facilities}
+            id="parallax-img"
+            alt="AI generated image of a painting of a surreal art building"
+          />
           <nav className="facilities-container-text">
             <h2>facilities</h2>
             <p>
@@ -127,7 +139,11 @@ export default function Residency() {
       <hr className="border" />
       <nav className="container" id="residents">
         <nav className="residents-container">
-          <img src={residents} alt="placeholder" />
+          <img
+            src={residents}
+            id="parallax-img"
+            alt="AI generated image of a colorful finger painting accentuated with two black hand shapes"
+          />
           <nav className="residents-container-text">
             <h2>residents</h2>
             <p>

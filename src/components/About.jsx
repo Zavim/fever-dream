@@ -17,7 +17,7 @@ import LaxAnimController from "./LaxAnimController";
 export default function About() {
   //make this a drop down with focus
   return (
-    <nav className="wrapper">
+    <>
       <LaxAnimController />
       <div className="container">
         <nav className="mission-container" id="mission">
@@ -30,7 +30,11 @@ export default function About() {
               turn, cultivating and advancing fine art in Cleveland.
             </p>
           </nav>
-          <img src={mission} alt="AI generated image of"></img>
+          <img
+            src={mission}
+            id="parallax-img"
+            alt="AI generated image of people in front of mirrors with clouds overhead"
+          ></img>
         </nav>
         <hr className="border"></hr>
       </div>
@@ -39,7 +43,11 @@ export default function About() {
           <nav className="vision-container-text">
             <h2 className="vision-header">vision</h2>
             <nav className="vision-container-text--split">
-              <img src={vision} alt="placeholder" />
+              <img
+                src={vision}
+                id="parallax-img"
+                alt="AI generated image of a surreal diver above the sea in front of a paint pallete"
+              />
               <nav>
                 <p>
                   feverdream’s vision is to fill a niche within the artistic
@@ -101,7 +109,11 @@ export default function About() {
           <h2 className="board-header">board</h2>
           <nav className="board-bio" id="jesse-board-bio">
             <nav className="board-bio-image-container">
-              <img src={jesse} alt="placeholder" />
+              <img
+                src={jesse}
+                id="parallax-img"
+                alt="AI generated image of a silhouette of a man wearing a hat in front of stars in background"
+              />
               <h3>jesse grant</h3>
               <h4>Founder</h4>
             </nav>
@@ -118,7 +130,11 @@ export default function About() {
           </nav>
           <nav className="board-bio" id="christine-board-bio">
             <nav className="board-bio-image-container">
-              <img src={christine} alt="placeholder" />
+              <img
+                src={christine}
+                id="parallax-img"
+                alt="AI generated image of a boxy person sitting, framed by rainbow colors and alternate dimensions"
+              />
               <h3>christine grant</h3>
               <h4>Founder</h4>
             </nav>
@@ -152,7 +168,11 @@ export default function About() {
           </nav> */}
           <nav className="board-bio" id="erin-board-bio">
             <nav className="board-bio-image-container">
-              <img src={erin} alt="placeholder" />
+              <img
+                src={erin}
+                id="parallax-img"
+                alt="AI generated image of colorful geometric triangles accented by rectangles"
+              />
               <h3>erin guido</h3>
               <h4>Founder</h4>
             </nav>
@@ -169,7 +189,11 @@ export default function About() {
           </nav>
           <nav className="board-bio" id="johnPaul-board-bio">
             <nav className="board-bio-image-container">
-              <img src={johnPaul} alt="placeholder" />
+              <img
+                src={johnPaul}
+                id="parallax-img"
+                alt="AI generated image of a hellish scholar hunched over parchment next to a tree with birds and an orb overhead"
+              />
               <h3>john paul costello</h3>
               <h4>Founder</h4>
             </nav>
@@ -187,7 +211,11 @@ export default function About() {
           </nav>
           <nav className="board-bio" id="maxmillian-board-bio">
             <nav className="board-bio-image-container">
-              <img src={maxmillian} alt="placeholder" />
+              <img
+                src={maxmillian}
+                id="parallax-img"
+                alt="AI generated image of a surfer skating on the sea floor"
+              />
               <h3>maxmillian peralta</h3>
               <h4>Program Director</h4>
             </nav>
@@ -204,6 +232,6 @@ export default function About() {
           </nav>
         </nav>
       </div>
-    </nav>
+    </>
   );
 }

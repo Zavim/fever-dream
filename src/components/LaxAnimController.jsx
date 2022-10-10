@@ -8,9 +8,13 @@ export default function LaxAnimController(props) {
     window.lax = { presets: lax.presets };
     lax.init();
 
-    lax.addDriver("scrollY", function () {
-      return window.scrollY;
-    });
+    lax.addDriver(
+      "scrollY",
+      function () {
+        return window.scrollY;
+      },
+      { inertiaEnabled: true }
+    );
 
     //add elements
     lax.addElements("#spinner", {
@@ -21,6 +25,26 @@ export default function LaxAnimController(props) {
         ],
       },
     });
+
+    lax.addElements("#parallax-img", {
+      scrollY: {
+        translateY: [
+          ["elInY", "elOutY"],
+          ["screenHeight/6", "-screenHeight/6"],
+          {
+            inertia: -1,
+          },
+        ],
+        opacity: [
+          ["elInY", "elCenterY", "elOutY"],
+          [0, 1, 0.5],
+          {
+            easing: "easeInOutCubic",
+          },
+        ],
+      },
+    });
+
     // lax.addElements(".mission-container", {
     //   scrollY: {
     //     opacity: [

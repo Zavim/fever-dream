@@ -176,10 +176,6 @@ a {
   transition: max-height 0.2s ease-out;
 }
 
-/* .content.open > a:hover {
-  text-decoration: underline;
-} */
-
 .back-to-top-button {
   display: block;
   width: calc(var(--back-to-top-button-width) / 1.5);
