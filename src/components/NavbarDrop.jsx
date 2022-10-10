@@ -4,6 +4,9 @@ import Dropdown from "./Dropdown";
 export default function NavbarDrop() {
   return (
     <>
+      <nav className="feverdream-banner-container">
+        <h1 className="feverdream-banner">(feverdream)</h1>
+      </nav>
       <nav className="navbar">
         <nav className="hamburger-dropdown">
           <Dropdown
@@ -26,8 +29,8 @@ export default function NavbarDrop() {
             links={["/", "/about", "/residency", "/support"]}
           />
         </nav>
-        <a href="/">
-          <h3 className="navbar-feverdream">feverdream</h3>
+        <a href="/" className="navbar-feverdream">
+          <h3>feverdream</h3>
         </a>
         <Dropdown
           label={<h3 className="navbar-about">about</h3>}

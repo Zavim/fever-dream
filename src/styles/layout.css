@@ -56,7 +56,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 7.5rem;
+  height: 5rem;
   background: linear-gradient(
     #ffffff 0%,
     #ffffff 85%,
@@ -121,12 +121,28 @@ a {
   color: #000000;
 }
 
-/* .fake-navbar > a {
-  text-decoration: none;
-  color: #000000;
-} */
+.feverdream-banner-container {
+  position: sticky;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  top: 0;
+  height: 3.25rem;
+  background-color: #ffffff;
+}
 
-.navbar-feverdream {
+.feverdream-banner {
+  font-family: "vulf mono black italic";
+  font-size: 2.5rem;
+  background-image: url("/images/feverdream-nav-bg.png");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #f55093;
+}
+
+.navbar-feverdream > h3 {
   background-image: url("/images/feverdream-nav-bg.png");
   background-clip: text;
   -webkit-background-clip: text;
@@ -154,7 +170,6 @@ a {
   position: absolute;
   max-height: 0;
   overflow: hidden;
-  transform: translateY(-0.3125rem);
 }
 
 .content.open {
@@ -166,13 +181,13 @@ a {
   width: 40%;
   max-height: 9999px;
   text-align: center;
-  transform: translateY(0.3125rem);
+  /* transform: translateY(0.3125rem); */
   animation: fadeIn cubic-bezier(0.22, 0.61, 0.36, 1) 2s;
   animation-duration: 0.5s;
   animation-fill-mode: backwards;
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   background-color: #000000cc;
-  margin-top: 1rem;
+  margin-top: 0.35rem;
   transition: max-height 0.2s ease-out;
 }
 
@@ -286,6 +301,7 @@ footer {
 @media (min-width: 50em) {
   .navbar {
     justify-content: space-evenly;
+    top: 3.25rem;
   }
   .navbar > .dropdown {
     display: block;
@@ -294,6 +310,12 @@ footer {
     display: block;
   }
   .navbar > .hamburger-dropdown {
+    display: none;
+  }
+  .feverdream-banner-container {
+    display: flex;
+  }
+  .navbar-feverdream {
     display: none;
   }
   .home-navbar {
