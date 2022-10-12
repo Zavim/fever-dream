@@ -27,6 +27,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "vulf sans italic";
+  src: url("../../fonts/sans/Vulf_Sans-Italic.ttf") format("truetype");
+  font-display: swap;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -222,23 +228,19 @@ img {
   /* position: relative; */
   display: none;
   overflow: hidden;
-  animation: fadeOut ease-out 2s;
+  /* animation: fadeOut ease-out 2s; */
   /* animation-duration: 0.5s;
   animation-fill-mode: backwards; */
   /* transition: all 0.25s cubic-bezier(0, 1, 0, 1); */
   /* transition: display 0.2s ease-out; */
 }
 
-.curtain-content > p {
-  padding: 1rem;
-}
-
 .curtain-content.open {
   display: block;
-  background: #61959d;
-  color: #ffffff;
-  font-family: "vulf sans regular";
-  text-align: left;
+  /* background: #61959d; */
+  /* color: #ffffff; */
+  font-family: "vulf sans italic";
+  text-align: right;
   max-height: 9999px;
   animation: fadeIn ease-out 2s;
   animation-duration: 0.5s;
@@ -246,20 +248,13 @@ img {
   transition: transform 0.2s ease-out;
 }
 
-.curtain-content.open > ul {
-  padding: 1em 1.5em;
+.curtain-content.open:hover {
+  text-decoration: #61959d 0.2rem underline;
 }
 
 .vision-header {
   text-align: right;
   padding-right: 6.7%;
-  /* background: linear-gradient(
-    to right,
-    #61959d 0%,
-    rgba(0, 0, 0, 0) 82%,
-    rgba(0, 0, 0, 0) 94%,
-    #61959d 100%
-  ); */
 }
 
 .vision-container-text > h3 {
@@ -476,9 +471,13 @@ footer {
   }
   .collapsibles-container {
     position: relative;
-    left: 6%;
+    left: 10%;
     height: 40vh;
     padding-top: 2rem;
+    padding-right: 0;
+  }
+  .curtain-content > p {
+    padding-right: 11.7%;
   }
   .board-header {
     padding-left: 17vw;

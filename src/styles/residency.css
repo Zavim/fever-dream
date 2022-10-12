@@ -10,18 +10,6 @@
 }
 
 @font-face {
-  font-family: "vulf mono italic";
-  src: url("../../fonts/mono/Vulf_Mono-Italic_web.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "vulf mono bold";
-  src: url("../../fonts/mono/Vulf_Mono-Bold_web.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
   font-family: "vulf sans regular";
   src: url("../../fonts/sans/Vulf_Sans-Regular.ttf") format("truetype");
   font-display: swap;
@@ -30,6 +18,12 @@
 @font-face {
   font-family: "vulf sans medium";
   src: url("../../fonts/sans/Vulf_Sans-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vulf sans italic";
+  src: url("../../fonts/sans/Vulf_Sans-Italic.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -395,7 +389,10 @@ img {
 }
 
 .curtain-content > p {
-  padding: 1rem;
+  font-family: "vulf sans italic";
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  padding-bottom: 1rem;
 }
 
 .curtain-content.open {
@@ -408,6 +405,10 @@ img {
   animation-duration: 0.5s;
   /* animation-fill-mode: backwards; */
   transition: transform 0.2s ease-out;
+}
+
+.curtain-content.open:hover {
+  text-decoration: #aec48e 0.2rem underline;
 }
 
 .curtain-content.open > ul {

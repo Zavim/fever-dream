@@ -40,73 +40,120 @@ export default function Residency() {
             <Curtain
               curtain={<p>Residency Benefits</p>}
               curtainContent={
-                <ul>
-                  <li>
+                // <ul>
+                //   <li>
+                //     2 Months dedicated to your art practice, creating a body of
+                //     work you will keep.
+                //   </li>
+                //   <li>A platform to showcase your work</li>
+                //   <li>A $3000 stipend </li>
+                //   <li>An $800 supply stipend</li>
+                // </ul>
+                <>
+                  <p>
                     2 Months dedicated to your art practice, creating a body of
                     work you will keep.
-                  </li>
-                  <li>A platform to showcase your work</li>
-                  <li>A $3000 stipend </li>
-                  <li>An $800 supply stipend</li>
-                </ul>
+                  </p>
+                  <p>A platform to showcase your work</p>
+                  <p>A $3000 stipend </p>
+                  <p>An $800 supply stipend</p>
+                </>
               }
             />
             <Curtain
               curtain={<p>Residency Responsibilities</p>}
               curtainContent={
-                <ul>
-                  <li>Create a self-directed body of work for The Shoreway</li>
-                  <li>Cooperate with Fever Dream marketing efforts </li>
-                  <li>Donate a one-off tiger related artwork </li>
-                </ul>
+                // <ul>
+                //   <li>Create a self-directed body of work for The Shoreway</li>
+                //   <li>Cooperate with Fever Dream marketing efforts </li>
+                //   <li>Donate a one-off tiger related artwork </li>
+                // </ul>
+                <>
+                  <p>Create a self-directed body of work for The Shoreway</p>
+                  <p>Cooperate with Fever Dream marketing efforts </p>
+                  <p>Donate a one-off tiger related artwork </p>
+                </>
               }
             />
             <Curtain
               curtain={<p>Eligibility</p>}
               curtainContent={
-                <ul>
-                  <li>You must be 21 years old or older </li>
-                  <li>
+                // <ul>
+                //   <li>You must be 21 years old or older </li>
+                //   <li>
+                //     We strongly encourage applicants have an undergraduate BFA
+                //     degree, although not required{" "}
+                //   </li>
+                //   <li>
+                //     You must be an emerging artist (defined as an aspiring
+                //     professional artist early into their career).{" "}
+                //   </li>
+                //   <li>No artist collective groups </li>
+                //   <li>You must have the ability to commute to the studio </li>
+                // </ul>
+                <>
+                  <p>You must be 21 years old or older </p>
+                  <p>
                     We strongly encourage applicants have an undergraduate BFA
                     degree, although not required{" "}
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                     You must be an emerging artist (defined as an aspiring
                     professional artist early into their career).{" "}
-                  </li>
-                  <li>No artist collective groups </li>
-                  <li>You must have the ability to commute to the studio </li>
-                </ul>
+                  </p>
+                  <p>No artist collective groups </p>
+                  <p>You must have the ability to commute to the studio </p>
+                </>
               }
             />
             <Curtain
               curtain={<p>Adjudication</p>}
               curtainContent={
-                <ul>
-                  <li>
+                // <ul>
+                //   <li>
+                //     The final candidate for the residency program is decided by
+                //     the board. If you are selected for the final round of the
+                //     adjudication process you will be contacted via text/email
+                //     for a final interview which will aide the final decision.{" "}
+                //   </li>
+                // </ul>
+                <>
+                  <p>
                     The final candidate for the residency program is decided by
                     the board. If you are selected for the final round of the
                     adjudication process you will be contacted via text/email
                     for a final interview which will aide the final decision.{" "}
-                  </li>
-                </ul>
+                  </p>
+                </>
               }
             />
             <Curtain
               curtain={<p>Apply</p>}
               curtainContent={
-                <ul>
-                  <li>
+                // <ul>
+                //   <li>
+                //     Submit an application to become the next Fever Dream
+                //     resident
+                //   </li>
+                //   <li>
+                //     As an applicant you should be aware we require the following
+                //     information within the application: <br /> <br /> Personal
+                //     Details, Contact Info, Educational Background, Resume/CV,
+                //     Slideshow of 8 - 12 Works, Statement, and Proposal
+                //   </li>
+                // </ul>
+                <>
+                  <p>
                     Submit an application to become the next Fever Dream
                     resident
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                     As an applicant you should be aware we require the following
                     information within the application: <br /> <br /> Personal
                     Details, Contact Info, Educational Background, Resume/CV,
                     Slideshow of 8 - 12 Works, Statement, and Proposal
-                  </li>
-                </ul>
+                  </p>
+                </>
               }
             />
           </nav>
