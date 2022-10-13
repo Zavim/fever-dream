@@ -26,7 +26,7 @@ export default function NavbarDrop() {
               </button>
             }
             content={["home", "about", "residency", "support"]}
-            links={["/", "/about", "/residency", "/support"]}
+            links={["/", "/#mission", "/residency", "/support"]}
           />
         </nav>
         <a href="/" className="navbar-feverdream">
