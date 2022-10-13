@@ -23,16 +23,32 @@ export default function Navbar() {
               </button>
             }
             content={["home", "about", "residency", "support"]}
-            links={["/", "/about", "/residency", "/support"]}
+            links={["/", "/#mission", "/residency", "/support"]}
           />
         </nav>
 
-        <a href="/about">
+        {/* <a href="/about">
           <h3>about</h3>
-        </a>
-        <a href="/residency">
+        </a> */}
+        <Dropdown
+          label={<h3 className="navbar-about">about</h3>}
+          content={["mission statement", "vision", "board"]}
+          links={["/#mission", "/#vision", "/#board"]}
+        />
+        <Dropdown
+          label={<h3 className="navbar-residency">residency</h3>}
+          content={["goal", "about", "facilities", "residents", "faq"]}
+          links={[
+            "/residency#goal",
+            "/residency#about",
+            "/residency#facilities",
+            "/residency#residents",
+            "/residency#faq",
+          ]}
+        />
+        {/* <a href="/residency">
           <h3>residency</h3>
-        </a>
+        </a> */}
         {/* <a href="/dreamjournal">
           <h3 className="navbar-dreamjournal">dreamjournal</h3>
         </a> */}

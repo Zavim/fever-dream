@@ -51,17 +51,17 @@ main {
   margin-inline: auto;
 }
 
-.label :hover {
+/* .label :hover {
   text-decoration: underline #b5bfbf;
-}
+} */
 
 .navbar > a :hover {
   text-decoration: underline #b5bfbf;
 }
 
-.navbar-about {
+/* .navbar-about {
   color: #b5bfbf;
-}
+} */
 
 /* .content.open {
   background: #b5bfbf;
@@ -101,6 +101,10 @@ img {
   display: block;
 }
 
+.feverdream-banner-container {
+  display: none;
+}
+
 .container,
 .about-content-container {
   margin-inline: auto;
@@ -121,7 +125,8 @@ img {
   );
   background-blend-mode: soft-light;
   min-height: max-content;
-  padding-top: 5.375rem;
+  /* padding-top: 5.375rem; */
+  padding-top: calc(100vh + 5.375rem);
   padding-bottom: 4rem;
 }
 

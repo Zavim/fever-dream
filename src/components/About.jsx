@@ -20,8 +20,8 @@ export default function About() {
     <>
       <LaxAnimController />
       <div className="container">
-        <nav className="mission-container" id="mission">
-          <nav className="mission-container-text">
+        <nav className="mission-container">
+          <nav className="mission-container-text" id="mission">
             <h2>
               mission <br /> statement
             </h2>

@@ -40,12 +40,12 @@ export default function Support() {
                 </a>
               </nav>
               <p>
-                For assistance and questions please email
+                For assistance and questions please
                 <a
                   href="mailto:hello@feverdream.co?subject=feverdream%20artist%20inquiry&body=First%20Name%0ALast%20Name%0AYour message here%21"
                   className="email"
                 >
-                  <strong> hello@feverdream.co</strong>
+                  <strong> email us at hello@feverdream.co</strong>
                 </a>
               </p>
             </p>

@@ -26,6 +26,15 @@ export default function LaxAnimController(props) {
       },
     });
 
+    lax.addElements(".back-to-top-wrapper", {
+      scrollY: {
+        opacity: [
+          [0, "screenHeight"],
+          [0, 1],
+        ],
+      },
+    });
+
     lax.addElements("#parallax-img", {
       scrollY: {
         translateY: [
