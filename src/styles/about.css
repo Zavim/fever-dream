@@ -199,7 +199,6 @@ img {
 
 .vision-container-text {
   text-align: right;
-  /* margin-bottom: 2rem; */
 }
 
 .vision-container-text--split {
@@ -282,7 +281,6 @@ img {
 .collapsibles-container {
   position: relative;
   padding: 1em 6.7% 0 6.7%;
-  height: 50vh;
 }
 
 .question {
@@ -476,13 +474,10 @@ footer {
   }
   .collapsibles-container {
     position: relative;
-    left: 10%;
-    height: 40vh;
+    /* left: 10%; */
+    /* height: 40vh; */
     padding-top: 2rem;
     padding-right: 0;
-  }
-  .curtain-content > p {
-    padding-right: 11.7%;
   }
   .board-header {
     padding-left: 17vw;
