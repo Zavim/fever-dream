@@ -39,7 +39,7 @@ export default function LaxAnimController(props) {
       scrollY: {
         translateY: [
           ["elInY", "elOutY"],
-          ["screenHeight/6", "-screenHeight/6"],
+          ["screenHeight/10", "-screenHeight/10"],
           {
             inertia: -1,
           },

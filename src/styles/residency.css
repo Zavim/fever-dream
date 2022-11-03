@@ -468,7 +468,7 @@ footer {
   }
   .about-container {
     flex-direction: row;
-    padding-bottom: 0;
+    padding: 2rem 0;
   }
   .about-container > * {
     flex-basis: 100%;

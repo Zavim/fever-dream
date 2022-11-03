@@ -473,11 +473,11 @@ footer {
     padding: 0 11.4% 0 12%;
   }
   .collapsibles-container {
-    position: relative;
-    /* left: 10%; */
-    /* height: 40vh; */
-    padding-top: 2rem;
-    padding-right: 0;
+    padding: 2rem 0 0 0;
+    width: 100%;
+  }
+  .curtain-content.open {
+    padding-left: 14%;
   }
   .board-header {
     padding-left: 17vw;
