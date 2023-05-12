@@ -35,24 +35,24 @@ export default function LaxAnimController(props) {
       },
     });
 
-    lax.addElements("#parallax-img", {
-      scrollY: {
-        translateY: [
-          ["elInY", "elOutY"],
-          ["screenHeight/10", "-screenHeight/10"],
-          {
-            inertia: -0.5,
-          },
-        ],
-        // opacity: [
-        //   ["elInY", "elCenterY", "elOutY"],
-        //   [0, 1, 0.5],
-        //   {
-        //     easing: "easeInOutCubic",
-        //   },
-        // ],
-      },
-    });
+    // lax.addElements("#parallax-img", {
+    //   scrollY: {
+    //     translateY: [
+    //       ["elInY", "elOutY"],
+    //       ["screenHeight/10", "-screenHeight/10"],
+    //       {
+    //         inertia: -0.5,
+    //       },
+    //     ],
+    //     // opacity: [
+    //     //   ["elInY", "elCenterY", "elOutY"],
+    //     //   [0, 1, 0.5],
+    //     //   {
+    //     //     easing: "easeInOutCubic",
+    //     //   },
+    //     // ],
+    //   },
+    // });
   }, []);
 
   return <>{elements}</>;
