@@ -21,6 +21,7 @@ export default function Footer() {
           <br />
           <a href="/residency">residency</a>
           <br />
+          <a href="/support">support</a>
         </nav>
         <nav className="footer-socials">
           <a href="https://www.instagram.com/feverdream.gallery?igshid=YmMyMTA2M2Y=">
